@@ -63,29 +63,33 @@ A modern, responsive portfolio website built with Next.js 15 and Tailwind CSS v4
 ### Installation
 
 1. Clone the repository
-   \`\`\`bash
+
+   ```bash
    git clone <repository-url>
    cd rishabh-portfolio
-   \`\`\`
+   ```
 
 2. Install dependencies
-   \`\`\`bash
+
+   ```bash
    pnpm install
-   \`\`\`
+   ```
 
 3. Start development server
-   \`\`\`bash
+
+   ```bash
    pnpm dev
-   \`\`\`
+   ```
 
 4. Build for production
-   \`\`\`bash
+
+   ```bash
    pnpm build
-   \`\`\`
+   ```
 
 ## 📁 Project Structure
 
-\`\`\`
+```rishabh-portfolio/
 ├── app/ # Next.js 15 app directory
 │ ├── globals.css # Global styles and Tailwind imports
 │ ├── layout.tsx # Root layout component
@@ -97,7 +101,7 @@ A modern, responsive portfolio website built with Next.js 15 and Tailwind CSS v4
 ├── data/ # Static data (projects, testimonials, etc.)
 ├── public/ # Static assets
 └── styles/ # Additional stylesheets
-\`\`\`
+```
 
 ## 🎯 Key Improvements Made
 
@@ -140,26 +144,26 @@ A modern, responsive portfolio website built with Next.js 15 and Tailwind CSS v4
 
 The project uses Tailwind CSS v4 with a simplified configuration approach:
 
-\`\`\`css
+```css
 @import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark \*));
-\`\`\`
+```
 
 ### Custom CSS Variables
 
 Portfolio-specific colors and theme variables are defined in \`globals.css\`:
 
-\`\`\`css
+```css
 :root {
---charcoal: #0f172a;
---off-white: #f8fafc;
---neon-lime: #3b82f6;
---electric-blue: #60a5fa;
---muted-gray: #1e293b;
+  --charcoal: #0f172a;
+  --off-white: #f8fafc;
+  --neon-lime: #3b82f6;
+  --electric-blue: #60a5fa;
+  --muted-gray: #1e293b;
 }
-\`\`\`
+```
 
 ## 📊 Performance
 
@@ -177,14 +181,21 @@ Portfolio-specific colors and theme variables are defined in \`globals.css\`:
 
 ## 📄 License
 
-This project is private and proprietary. All rights reserved.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## 👨‍💻 Portfolio Owner
 
-**Rishabh Prajapat**
+**Rishabh Prajapat** - Graphic Designer & Creative Professional
 
 - Portfolio: [rishabhprajapat.com](https://rishabhprajapat.com)
 - WhatsApp: [+91 95291 55325](https://wa.me/919529155325)
+
+## 🚀 Developer
+
+**Sanyam Jain** - Full Stack Developer
+
+- Website: [sanyam.software](https://sanyam.software/)
+- Specialized in modern web development and portfolio solutions
 
 ---
 

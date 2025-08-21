@@ -123,15 +123,32 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-12 pt-8 border-t border-off-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-off-white/50 text-responsive-xs">© 2024 Rishabh Prajapat. All rights reserved.</p>
-          <div className="flex items-center gap-6 text-responsive-xs text-off-white/50">
-            <Link href="/privacy" className="hover:text-neon-lime transition-colors duration-200 focus-ring">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="hover:text-neon-lime transition-colors duration-200 focus-ring">
-              Terms of Service
-            </Link>
+        <div className="mt-12 pt-8 border-t border-off-white/10">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-4">
+            <p className="text-off-white/50 text-responsive-xs">© 2025 Rishabh Prajapat. All rights reserved.</p>
+            <div className="flex items-center gap-6 text-responsive-xs text-off-white/50">
+              <Link href="/privacy" className="hover:text-neon-lime transition-colors duration-200 focus-ring">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="hover:text-neon-lime transition-colors duration-200 focus-ring">
+                Terms of Service
+              </Link>
+            </div>
+          </div>
+
+          {/* Developer Credit */}
+          <div className="text-center pt-4 border-t border-off-white/5">
+            <p className="text-off-white/40 text-xs">
+              Developed by{' '}
+              <Link
+                href="https://sanyam.software/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-neon-lime hover:text-electric-blue transition-colors duration-200 font-medium focus-ring"
+              >
+                Sanyam Jain
+              </Link>
+            </p>
           </div>
         </div>
       </div>
