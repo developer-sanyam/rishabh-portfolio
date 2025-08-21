@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "zenith-brand-identity",
+    "title": "Zenith Brand Identity",
+    "client": "Zenith Tech",
+    "year": "2024",
+    "role": "Brand Designer",
+    "services": ["Brand Identity", "Logo Design", "Brand Guidelines"],
+    "tags": ["Branding", "Tech", "Minimal"],
+    "cover": "/images/projects/zenith/cover.png",
+    "images": [
+      "/images/projects/zenith/logo-variations.jpg",
+      "/images/projects/zenith/business-cards.jpg",
+      "/images/projects/zenith/brand-guidelines.jpg"
+    ],
+    "summary": "A bold, minimal identity for a cutting-edge tech startup focused on AI solutions.",
+    "caseStudy": {
+      "problem": "Zenith Tech needed a brand identity that would position them as innovative leaders in the AI space while maintaining approachability for enterprise clients.",
+      "concept": "The identity centers around the concept of 'peak performance' - using sharp, geometric forms that suggest precision and forward momentum.",
+      "process": "Through extensive research and stakeholder interviews, we developed a visual language that balances technical sophistication with human warmth.",
+      "outcome": "A comprehensive brand system including logo variations, color palette, typography, and application guidelines.",
+      "results": "40% increase in brand recognition and 25% improvement in client acquisition within 6 months of launch."
+    }
+  },
+  {
+    "slug": "aurora-packaging",
+    "title": "Aurora Skincare Packaging",
+    "client": "Aurora Beauty",
+    "year": "2024",
+    "role": "Packaging Designer",
+    "services": ["Packaging Design", "Art Direction", "Photography"],
+    "tags": ["Packaging", "Beauty", "Luxury"],
+    "cover": "/images/projects/aurora/cover.png",
+    "images": [
+      "/images/projects/aurora/packaging-lineup.jpg",
+      "/images/projects/aurora/detail-shots.jpg",
+      "/images/projects/aurora/lifestyle.jpg"
+    ],
+    "summary": "Luxurious packaging design for a premium skincare line targeting conscious consumers.",
+    "caseStudy": {
+      "problem": "Aurora Beauty wanted packaging that would stand out in the crowded skincare market while reflecting their commitment to sustainability.",
+      "concept": "Inspired by the natural phenomenon of aurora borealis, the design uses flowing gradients and premium materials.",
+      "process": "Collaborated with sustainable packaging suppliers to create eco-friendly solutions without compromising on luxury appeal.",
+      "outcome": "A complete packaging system across 12 SKUs with consistent visual language and sustainable materials.",
+      "results": "60% increase in shelf appeal testing and 35% boost in online conversion rates."
+    }
+  },
+  {
+    "slug": "velocity-magazine",
+    "title": "Velocity Magazine Redesign",
+    "client": "Velocity Publishing",
+    "year": "2023",
+    "role": "Art Director",
+    "services": ["Editorial Design", "Art Direction", "Typography"],
+    "tags": ["Editorial", "Magazine", "Typography"],
+    "cover": "/images/projects/velocity/cover.png",
+    "images": [
+      "/images/projects/velocity/spreads.jpg",
+      "/images/projects/velocity/covers.jpg",
+      "/images/projects/velocity/typography.jpg"
+    ],
+    "summary": "Complete redesign of a automotive lifestyle magazine with focus on dynamic typography and visual storytelling.",
+    "caseStudy": {
+      "problem": "Velocity Magazine needed a fresh visual identity to compete with digital media and attract younger readers.",
+      "concept": "Dynamic layouts that mirror the energy and movement of automotive culture, with bold typography and immersive photography.",
+      "process": "Developed a flexible grid system that allows for both structured content and creative editorial spreads.",
+      "outcome": "New visual identity applied across print and digital platforms with comprehensive style guide.",
+      "results": "45% increase in newsstand sales and 50% growth in digital subscriptions."
+    }
+  },
+  {
+    "slug": "pulse-social-campaign",
+    "title": "Pulse Fitness Social Campaign",
+    "client": "Pulse Fitness",
+    "year": "2024",
+    "role": "Creative Director",
+    "services": ["Social Media Design", "Campaign Strategy", "Motion Graphics"],
+    "tags": ["Social", "Fitness", "Campaign"],
+    "cover": "/images/projects/pulse/cover.png",
+    "images": [
+      "/images/projects/pulse/social-grid.jpg",
+      "/images/projects/pulse/stories.jpg",
+      "/images/projects/pulse/motion-graphics.jpg"
+    ],
+    "summary": "High-energy social media campaign for a boutique fitness studio's grand opening.",
+    "caseStudy": {
+      "problem": "Pulse Fitness needed to build awareness and drive memberships for their new location in a competitive market.",
+      "concept": "Bold, energetic visuals that capture the intensity and community spirit of the fitness experience.",
+      "process": "Created a comprehensive content strategy with templates for ongoing social media management.",
+      "outcome": "Complete social media toolkit including post templates, story animations, and video graphics.",
+      "results": "300% increase in social media engagement and 150 new memberships in the first month."
+    }
+  },
+  {
+    "slug": "nexus-illustration-series",
+    "title": "Nexus Illustration Series",
+    "client": "Nexus Gallery",
+    "year": "2023",
+    "role": "Illustrator",
+    "services": ["Illustration", "Art Direction", "Print Design"],
+    "tags": ["Illustration", "Art", "Print"],
+    "cover": "/images/projects/nexus/cover.png",
+    "images": [
+      "/images/projects/nexus/illustrations.jpg",
+      "/images/projects/nexus/prints.jpg",
+      "/images/projects/nexus/exhibition.jpg"
+    ],
+    "summary": "Abstract illustration series exploring the intersection of technology and human connection.",
+    "caseStudy": {
+      "problem": "Nexus Gallery commissioned a series of illustrations for their 'Digital Humanity' exhibition.",
+      "concept": "Abstract compositions that visualize the complex relationships between digital technology and human emotion.",
+      "process": "Developed a unique visual language combining organic forms with geometric digital elements.",
+      "outcome": "Series of 8 large-format illustrations with accompanying limited edition prints.",
+      "results": "Exhibition extended by 2 months due to popular demand, with 85% of prints sold."
+    }
+  },
+  {
+    "slug": "summit-conference-identity",
+    "title": "Summit Conference Identity",
+    "client": "Design Summit",
+    "year": "2024",
+    "role": "Brand Designer",
+    "services": ["Event Branding", "Signage", "Digital Design"],
+    "tags": ["Branding", "Event", "Conference"],
+    "cover": "/images/projects/summit/cover.png",
+    "images": [
+      "/images/projects/summit/logo-system.jpg",
+      "/images/projects/summit/signage.jpg",
+      "/images/projects/summit/digital-assets.jpg"
+    ],
+    "summary": "Complete visual identity for a premier design conference bringing together industry leaders.",
+    "caseStudy": {
+      "problem": "Design Summit needed a sophisticated identity that would appeal to senior design professionals and reflect the conference's premium positioning.",
+      "concept": "Modular identity system based on the concept of 'elevation' - both literal and metaphorical growth in the design field.",
+      "process": "Created a flexible system that could adapt across multiple touchpoints from digital to large-scale environmental graphics.",
+      "outcome": "Comprehensive brand system including logo, typography, color palette, and application across 50+ touchpoints.",
+      "results": "Highest attendance in conference history with 95% satisfaction rating from attendees."
+    }
+  }
+]

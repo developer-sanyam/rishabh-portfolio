@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Zenith Tech",
+    "logo": "/images/clients/zenith-tech.png"
+  },
+  {
+    "name": "Aurora Beauty",
+    "logo": "/images/clients/aurora-beauty.png"
+  },
+  {
+    "name": "Velocity Publishing",
+    "logo": "/images/clients/velocity-publishing.png"
+  },
+  {
+    "name": "Pulse Fitness",
+    "logo": "/images/clients/pulse-fitness.png"
+  },
+  {
+    "name": "Nexus Gallery",
+    "logo": "/images/clients/nexus-gallery.png"
+  },
+  {
+    "name": "Design Summit",
+    "logo": "/images/clients/design-summit.png"
+  },
+  {
+    "name": "Innovate Corp",
+    "logo": "/images/clients/innovate-corp.png"
+  },
+  {
+    "name": "Creative Studios",
+    "logo": "/images/clients/creative-studios.png"
+  }
+]
