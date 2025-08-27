@@ -303,3 +303,11 @@
 .text-responsive-3xl {
   font-size: clamp(2rem, 3vw + 1rem, 3rem);
 }
+
+.text-charcoal {
+  color: #1e293b;
+}
+
+.text-off-white {
+  color: #f8fafc;
+}

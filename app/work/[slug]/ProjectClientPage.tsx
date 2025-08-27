@@ -1,6 +1,6 @@
 "use client"
 import { notFound } from "next/navigation"
-import { Calendar, User, Briefcase, Wrench } from "lucide-react"
+import { Calendar, User, Briefcase, Wrench, Building } from "lucide-react"
 import { Tag } from "@/components/tag"
 import { ProjectGallery } from "@/components/project-gallery"
 import { ProjectNavigation } from "@/components/project-navigation"
@@ -33,8 +33,8 @@ export default function ProjectClientPage({ params }: ProjectPageProps) {
                 <span className="text-sm">{project.year}</span>
               </div>
               <div className="flex items-center gap-2 text-off-white/70">
-                <User className="w-4 h-4 text-electric-blue" />
-                <span className="text-sm">{project.role}</span>
+                <Building className="w-4 h-4 text-electric-blue" />
+                <span className="text-sm">{project.category}</span>
               </div>
             </div>
 
@@ -46,20 +46,23 @@ export default function ProjectClientPage({ params }: ProjectPageProps) {
             {/* Client */}
             <p className="text-xl lg:text-2xl text-neon-lime font-medium mb-8">{project.client}</p>
 
-            {/* Summary */}
-            <p className="text-lg text-off-white/80 leading-relaxed mb-12 max-w-3xl">{project.summary}</p>
+            {/* Description */}
+            <p className="text-lg text-off-white/80 leading-relaxed mb-8 max-w-3xl">{project.description}</p>
 
-            {/* Services & Tags */}
+            {/* Long Description */}
+            <p className="text-base text-off-white/70 leading-relaxed mb-12 max-w-3xl">{project.longDescription}</p>
+
+            {/* Technologies & Tags */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
               <div>
                 <div className="flex items-center gap-2 mb-4">
                   <Briefcase className="w-5 h-5 text-neon-lime" />
-                  <h3 className="font-display text-lg font-semibold text-off-white">Services</h3>
+                  <h3 className="font-display text-lg font-semibold text-off-white">Technologies</h3>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {project.services.map((service) => (
-                    <Tag key={service} variant="accent">
-                      {service}
+                  {project.technologies.map((tech) => (
+                    <Tag key={tech} variant="accent">
+                      {tech}
                     </Tag>
                   ))}
                 </div>
@@ -68,7 +71,7 @@ export default function ProjectClientPage({ params }: ProjectPageProps) {
               <div>
                 <div className="flex items-center gap-2 mb-4">
                   <Wrench className="w-5 h-5 text-electric-blue" />
-                  <h3 className="font-display text-lg font-semibold text-off-white">Categories</h3>
+                  <h3 className="font-display text-lg font-semibold text-off-white">Tags</h3>
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
@@ -89,51 +92,6 @@ export default function ProjectClientPage({ params }: ProjectPageProps) {
           <ProjectGallery images={project.images} title={project.title} />
         </div>
       </section>
-
-      {/* Case Study */}
-      {project.caseStudy && (
-        <section className="py-20 bg-muted-gray/30">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="font-display text-3xl lg:text-4xl font-bold text-off-white mb-16 text-center">
-                Case Study
-              </h2>
-
-              <div className="space-y-16">
-                {/* Problem */}
-                <div>
-                  <h3 className="font-display text-2xl font-bold text-neon-lime mb-6">Problem</h3>
-                  <p className="text-lg text-off-white/80 leading-relaxed">{project.caseStudy.problem}</p>
-                </div>
-
-                {/* Concept */}
-                <div>
-                  <h3 className="font-display text-2xl font-bold text-electric-blue mb-6">Concept</h3>
-                  <p className="text-lg text-off-white/80 leading-relaxed">{project.caseStudy.concept}</p>
-                </div>
-
-                {/* Process */}
-                <div>
-                  <h3 className="font-display text-2xl font-bold text-neon-lime mb-6">Process</h3>
-                  <p className="text-lg text-off-white/80 leading-relaxed">{project.caseStudy.process}</p>
-                </div>
-
-                {/* Outcome */}
-                <div>
-                  <h3 className="font-display text-2xl font-bold text-electric-blue mb-6">Outcome</h3>
-                  <p className="text-lg text-off-white/80 leading-relaxed">{project.caseStudy.outcome}</p>
-                </div>
-
-                {/* Results */}
-                <div>
-                  <h3 className="font-display text-2xl font-bold text-neon-lime mb-6">Results</h3>
-                  <p className="text-lg text-off-white/80 leading-relaxed">{project.caseStudy.results}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Project Navigation */}
       <section className="py-20">

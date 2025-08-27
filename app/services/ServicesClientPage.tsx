@@ -1,8 +1,5 @@
 "use client"
 import { Palette, Package, BookOpen, Share2, Brush, Eye, Clock, CheckCircle, MessageCircle } from "lucide-react"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { WhatsAppFloatingButton } from "@/components/whatsapp-floating-button"
 import { SectionTitle } from "@/components/section-title"
 import { Button } from "@/components/ui/button"
 import { CTASection } from "@/components/cta-section"
@@ -21,8 +18,7 @@ const services = [
       "Letterhead & stationery",
       "Brand application examples",
     ],
-    timeline: "2-4 weeks",
-    startingPrice: "Starting from ₹25,000",
+    timeline: "2-4 Days",
   },
   {
     icon: Package,
@@ -34,10 +30,8 @@ const services = [
       "Product photography direction",
       "Dieline creation",
       "Print-ready files",
-      "3D mockups",
     ],
-    timeline: "3-5 weeks",
-    startingPrice: "Starting from ₹20,000",
+    timeline: "3-5 Days",
   },
   {
     icon: BookOpen,
@@ -51,8 +45,7 @@ const services = [
       "Print & digital formats",
       "Style guide",
     ],
-    timeline: "2-6 weeks",
-    startingPrice: "Starting from ₹15,000",
+    timeline: "2-6 Days",
   },
   {
     icon: Share2,
@@ -66,23 +59,7 @@ const services = [
       "Multiple format exports",
       "Content calendar design",
     ],
-    timeline: "1-3 weeks",
-    startingPrice: "Starting from ₹12,000",
-  },
-  {
-    icon: Brush,
-    title: "Illustration",
-    description: "Custom illustrations that bring your ideas to life with unique artistic style and personality.",
-    deliverables: [
-      "Custom illustrations",
-      "Character design",
-      "Icon sets",
-      "Infographic elements",
-      "Vector & raster formats",
-      "Usage rights included",
-    ],
-    timeline: "1-4 weeks",
-    startingPrice: "Starting from ₹8,000",
+    timeline: "1-3 Days",
   },
   {
     icon: Eye,
@@ -96,8 +73,7 @@ const services = [
       "Team collaboration",
       "Quality assurance",
     ],
-    timeline: "2-8 weeks",
-    startingPrice: "Starting from ₹30,000",
+    timeline: "2-8 Days",
   },
 ]
 
@@ -134,7 +110,6 @@ function ServiceCard({ service, index }: { service: (typeof services)[0]; index:
           <Clock className="w-4 h-4 text-electric-blue" />
           <span className="text-sm">{service.timeline}</span>
         </div>
-        <p className="font-display font-semibold text-neon-lime">{service.startingPrice}</p>
       </div>
 
       {/* CTA */}

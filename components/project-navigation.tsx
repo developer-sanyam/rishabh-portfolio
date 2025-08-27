@@ -44,7 +44,7 @@ export function ProjectNavigation({ currentSlug }: ProjectNavigationProps) {
       <Button
         asChild
         variant="outline"
-        className="border-off-white/30 text-off-white hover:bg-off-white hover:text-charcoal bg-transparent"
+        className="border-off-white/30 text-off-white hover:bg-off-white hover:text-black bg-transparent"
       >
         <Link href="/work">All Projects</Link>
       </Button>

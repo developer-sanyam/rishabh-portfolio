@@ -15,9 +15,9 @@ export default function HomePage() {
       <div className="section-spacing">
         <FeaturedProjects />
       </div>
-      <div className="section-spacing">
+      {/* <div className="section-spacing">
         <ClientLogos />
-      </div>
+      </div> */}
       <div className="section-spacing">
         <TestimonialCarousel />
       </div>

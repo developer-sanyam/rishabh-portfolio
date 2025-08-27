@@ -9,8 +9,8 @@ import projectsData from "@/data/projects.json"
 import Link from "next/link"
 
 export function FeaturedProjects() {
-  // Get first 6 projects as featured
-  const featuredProjects = projectsData.slice(0, 6)
+  // Get featured projects from data
+  const featuredProjects = projectsData.filter(project => project.featured)
 
   return (
     <section >
@@ -40,7 +40,7 @@ export function FeaturedProjects() {
           <Button
             asChild
             size="lg"
-            className="border-electric-blue text-electric-blue hover:bg-electric-blue hover:text-charcoal bg-transparent text-base px-8 py-4"
+            className="border-electric-blue text-electric-blue hover:bg-electric-blue hover:text-black bg-transparent text-base px-8 py-4"
           >
             <Link href="/work" className="flex items-center gap-2">
               View All Work

@@ -75,7 +75,7 @@ export function Header() {
               asChild
               variant="outline"
               size="sm"
-              className="border-off-white/30 text-off-white hover:bg-off-white hover:text-charcoal bg-transparent"
+              className="border-off-white/30 text-off-white hover:bg-off-white hover:text-black bg-transparent"
             >
               <Link href="tel:+919529155325" className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
@@ -132,7 +132,7 @@ export function Header() {
                   <Button
                     asChild
                     variant="outline"
-                    className="w-full border-off-white/30 text-off-white hover:bg-off-white hover:text-charcoal bg-transparent"
+                    className="w-full border-off-white/30 text-off-white hover:bg-off-white hover:text-black bg-transparent"
                   >
                     <Link href="tel:+919529155325" className="flex items-center justify-center gap-2">
                       <Phone className="w-4 h-4" />

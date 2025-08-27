@@ -4,19 +4,23 @@ import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
-import { ArrowUpRight, Calendar, User } from "lucide-react"
+import { ArrowUpRight, Calendar, User, Building } from "lucide-react"
 import { Tag } from "@/components/tag"
 
 interface Project {
+  id: string
   slug: string
   title: string
-  client: string
-  year: string
-  role: string
-  services: string[]
+  category: string
+  description: string
+  longDescription: string
+  image: string
+  images: string[]
   tags: string[]
-  cover: string
-  summary: string
+  technologies: string[]
+  year: string
+  client: string
+  featured: boolean
 }
 
 interface ProjectCardProps {
@@ -47,7 +51,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           {/* Project Image */}
           <div className="relative aspect-[4/3] overflow-hidden">
             <Image
-              src={project.cover || "/placeholder.svg"}
+              src={project.image || "/placeholder.svg"}
               alt={project.title}
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -68,8 +72,8 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                 >
                   <div className="text-off-white">
                     <div className="flex items-center gap-2 mb-2">
-                      <User className="w-4 h-4 text-neon-lime" />
-                      <span className="text-sm font-medium">{project.role}</span>
+                      <Building className="w-4 h-4 text-neon-lime" />
+                      <span className="text-sm font-medium">{project.category}</span>
                     </div>
                     <div className="flex items-center gap-2 mb-3">
                       <Calendar className="w-4 h-4 text-electric-blue" />
@@ -103,13 +107,13 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
               {project.title}
             </h3>
             <p className="text-off-white/70 mb-3">{project.client}</p>
-            <p className="text-off-white/60 text-sm leading-relaxed mb-4">{project.summary}</p>
+            <p className="text-off-white/60 text-sm leading-relaxed mb-4">{project.description}</p>
 
-            {/* Services */}
+            {/* Technologies */}
             <div className="flex flex-wrap gap-2">
-              {project.services.slice(0, 3).map((service) => (
-                <Tag key={service} variant="muted" className="text-xs">
-                  {service}
+              {project.technologies.slice(0, 3).map((tech) => (
+                <Tag key={tech} variant="muted" className="text-xs">
+                  {tech}
                 </Tag>
               ))}
             </div>

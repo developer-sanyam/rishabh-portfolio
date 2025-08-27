@@ -26,15 +26,15 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
 
   return {
     title: `${project.title} - ${project.client} | Rishabh Prajapat`,
-    description: project.summary,
-    keywords: [...project.tags, ...project.services, project.client, "graphic design"],
+    description: project.description,
+    keywords: [...project.tags, ...project.technologies, project.client, project.category, "graphic design"],
     openGraph: {
       title: `${project.title} - ${project.client}`,
-      description: project.summary,
+      description: project.description,
       url: `https://rishabhprajapat.com/work/${project.slug}`,
       images: [
         {
-          url: project.cover,
+          url: project.image,
           width: 1200,
           height: 630,
           alt: project.title,

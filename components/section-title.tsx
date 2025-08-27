@@ -43,7 +43,7 @@ export function SectionTitle({ eyebrow, title, description, align = "left", clas
 
       {description && (
         <motion.p
-          className="text-off-white/70 text-lg leading-relaxed max-w-2xl mx-auto"
+          className="text-off-white/70 text-lg leading-relaxed max-w-2xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

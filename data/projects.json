@@ -1,140 +1,284 @@
 [
   {
-    "slug": "zenith-brand-identity",
-    "title": "Zenith Brand Identity",
-    "client": "Zenith Tech",
+    "id": "kavya-sahgal-architects",
+    "title": "Kavya Sahgal Architects",
+    "category": "Advertisement Design",
+    "description": "Comprehensive branding and advertisement design for an architectural firm, focusing on modern aesthetics and professional presentation.",
+    "longDescription": "Created a sophisticated advertisement campaign for Kavya Sahgal Architects, emphasizing their expertise in contemporary architectural design. The design incorporates clean lines, professional typography, and strategic use of white space to convey trust and expertise in the architectural field. The campaign features elegant interior photography showcasing their architectural excellence with luxury furniture and sophisticated design elements.",
+    "image": "/Portfolio/Advertisements/Kavya Sahgal Architects.png",
+    "images": [
+      "/Portfolio/Advertisements/Kavya Sahgal Architects.png",
+      "/Portfolio/Advertisements/Kavya Sahgal Architects 1.png"
+    ],
+    "tags": [
+      "Branding",
+      "Advertisement",
+      "Architecture",
+      "Professional",
+      "Interior Design"
+    ],
+    "technologies": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Print Design",
+      "Layout Design"
+    ],
     "year": "2024",
-    "role": "Brand Designer",
-    "services": ["Brand Identity", "Logo Design", "Brand Guidelines"],
-    "tags": ["Branding", "Tech", "Minimal"],
-    "cover": "/images/projects/zenith/cover.png",
-    "images": [
-      "/images/projects/zenith/logo-variations.jpg",
-      "/images/projects/zenith/business-cards.jpg",
-      "/images/projects/zenith/brand-guidelines.jpg"
-    ],
-    "summary": "A bold, minimal identity for a cutting-edge tech startup focused on AI solutions.",
-    "caseStudy": {
-      "problem": "Zenith Tech needed a brand identity that would position them as innovative leaders in the AI space while maintaining approachability for enterprise clients.",
-      "concept": "The identity centers around the concept of 'peak performance' - using sharp, geometric forms that suggest precision and forward momentum.",
-      "process": "Through extensive research and stakeholder interviews, we developed a visual language that balances technical sophistication with human warmth.",
-      "outcome": "A comprehensive brand system including logo variations, color palette, typography, and application guidelines.",
-      "results": "40% increase in brand recognition and 25% improvement in client acquisition within 6 months of launch."
-    }
+    "client": "Kavya Sahgal Architects",
+    "featured": true,
+    "slug": "kavya-sahgal-architects"
   },
   {
-    "slug": "aurora-packaging",
-    "title": "Aurora Skincare Packaging",
-    "client": "Aurora Beauty",
+    "id": "sanwaliya-printing-solutions",
+    "title": "Sanwaliya Printing Solutions",
+    "category": "Brand Identity",
+    "description": "Complete brand identity design including advertisements and visiting cards for a printing solutions company.",
+    "longDescription": "Developed a comprehensive brand identity for Sanwaliya Printing Solutions, including advertisement designs and visiting card layouts. The design emphasizes reliability, quality, and professionalism in the printing industry through strategic color choices and typography. The brand features a distinctive logo with traditional Indian design elements and modern geometric patterns.",
+    "image": "/Portfolio/Advertisements/Sanwaliya Printing Solutions.png",
+    "images": [
+      "/Portfolio/Advertisements/Sanwaliya Printing Solutions.png",
+      "/Portfolio/Advertisements/SPS 2.png",
+      "/Portfolio/Visiting Cards/Sanwaliya Printing Solutions.png"
+    ],
+    "tags": [
+      "Brand Identity",
+      "Print Design",
+      "Advertisement",
+      "Business Cards",
+      "Logo Design"
+    ],
+    "technologies": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Brand Design",
+      "Typography"
+    ],
     "year": "2024",
-    "role": "Packaging Designer",
-    "services": ["Packaging Design", "Art Direction", "Photography"],
-    "tags": ["Packaging", "Beauty", "Luxury"],
-    "cover": "/images/projects/aurora/cover.png",
-    "images": [
-      "/images/projects/aurora/packaging-lineup.jpg",
-      "/images/projects/aurora/detail-shots.jpg",
-      "/images/projects/aurora/lifestyle.jpg"
-    ],
-    "summary": "Luxurious packaging design for a premium skincare line targeting conscious consumers.",
-    "caseStudy": {
-      "problem": "Aurora Beauty wanted packaging that would stand out in the crowded skincare market while reflecting their commitment to sustainability.",
-      "concept": "Inspired by the natural phenomenon of aurora borealis, the design uses flowing gradients and premium materials.",
-      "process": "Collaborated with sustainable packaging suppliers to create eco-friendly solutions without compromising on luxury appeal.",
-      "outcome": "A complete packaging system across 12 SKUs with consistent visual language and sustainable materials.",
-      "results": "60% increase in shelf appeal testing and 35% boost in online conversion rates."
-    }
+    "client": "Sanwaliya Printing Solutions",
+    "featured": true,
+    "slug": "sanwaliya-printing-solutions"
   },
   {
-    "slug": "velocity-magazine",
-    "title": "Velocity Magazine Redesign",
-    "client": "Velocity Publishing",
-    "year": "2023",
-    "role": "Art Director",
-    "services": ["Editorial Design", "Art Direction", "Typography"],
-    "tags": ["Editorial", "Magazine", "Typography"],
-    "cover": "/images/projects/velocity/cover.png",
-    "images": [
-      "/images/projects/velocity/spreads.jpg",
-      "/images/projects/velocity/covers.jpg",
-      "/images/projects/velocity/typography.jpg"
+    "id": "mobile-app-ui",
+    "title": "Mobile App UI",
+    "category": "UI/UX Design",
+    "description": "Modern mobile application user interface design with focus on user experience and contemporary design trends.",
+    "longDescription": "Designed a sleek and intuitive mobile application interface for Priyanshu Fulwani. The design focuses on user-centric approach with modern UI elements, smooth interactions, and a clean visual hierarchy that enhances user engagement and usability. Features include login/register screens, profile management, and social media integration with a cohesive blue and white color scheme.",
+    "image": "/Portfolio/App UI Design/Priyanshu Fulwani UI.png",
+    "images": ["/Portfolio/App UI Design/Priyanshu Fulwani UI.png"],
+    "tags": [
+      "UI Design",
+      "UX Design",
+      "Mobile App",
+      "User Interface",
+      "Prototyping"
     ],
-    "summary": "Complete redesign of a automotive lifestyle magazine with focus on dynamic typography and visual storytelling.",
-    "caseStudy": {
-      "problem": "Velocity Magazine needed a fresh visual identity to compete with digital media and attract younger readers.",
-      "concept": "Dynamic layouts that mirror the energy and movement of automotive culture, with bold typography and immersive photography.",
-      "process": "Developed a flexible grid system that allows for both structured content and creative editorial spreads.",
-      "outcome": "New visual identity applied across print and digital platforms with comprehensive style guide.",
-      "results": "45% increase in newsstand sales and 50% growth in digital subscriptions."
-    }
-  },
-  {
-    "slug": "pulse-social-campaign",
-    "title": "Pulse Fitness Social Campaign",
-    "client": "Pulse Fitness",
+    "technologies": [
+      "Figma",
+      "Adobe XD",
+      "User Research",
+      "Prototyping",
+      "Mobile Design"
+    ],
     "year": "2024",
-    "role": "Creative Director",
-    "services": ["Social Media Design", "Campaign Strategy", "Motion Graphics"],
-    "tags": ["Social", "Fitness", "Campaign"],
-    "cover": "/images/projects/pulse/cover.png",
-    "images": [
-      "/images/projects/pulse/social-grid.jpg",
-      "/images/projects/pulse/stories.jpg",
-      "/images/projects/pulse/motion-graphics.jpg"
-    ],
-    "summary": "High-energy social media campaign for a boutique fitness studio's grand opening.",
-    "caseStudy": {
-      "problem": "Pulse Fitness needed to build awareness and drive memberships for their new location in a competitive market.",
-      "concept": "Bold, energetic visuals that capture the intensity and community spirit of the fitness experience.",
-      "process": "Created a comprehensive content strategy with templates for ongoing social media management.",
-      "outcome": "Complete social media toolkit including post templates, story animations, and video graphics.",
-      "results": "300% increase in social media engagement and 150 new memberships in the first month."
-    }
+    "client": "Priyanshu Fulwani",
+    "featured": true,
+    "slug": "priyanshu-fulwani-ui"
   },
   {
-    "slug": "nexus-illustration-series",
-    "title": "Nexus Illustration Series",
-    "client": "Nexus Gallery",
-    "year": "2023",
-    "role": "Illustrator",
-    "services": ["Illustration", "Art Direction", "Print Design"],
-    "tags": ["Illustration", "Art", "Print"],
-    "cover": "/images/projects/nexus/cover.png",
+    "id": "global-woodens-house",
+    "title": "Global Woodens House",
+    "category": "Marketing Materials",
+    "description": "Complete marketing package including brochures, visiting cards, and invoice design for a wooden furniture company.",
+    "longDescription": "Created a comprehensive marketing materials package for Global Woodens House, featuring detailed product brochures showcasing their wooden furniture collection, professional visiting cards, and well-designed invoice templates. The design emphasizes the natural beauty and quality of wooden products through rich wood textures and elegant typography, featuring traditional Indian wooden swings and furniture pieces.",
+    "image": "/Portfolio/Brochures/Global Woodens House Brochure.png",
     "images": [
-      "/images/projects/nexus/illustrations.jpg",
-      "/images/projects/nexus/prints.jpg",
-      "/images/projects/nexus/exhibition.jpg"
+      "/Portfolio/Brochures/Global Woodens House Brochure.png",
+      "/Portfolio/Brochures/Global Woodens House Brochure 1.png",
+      "/Portfolio/Brochures/Global Woodens House Brochure 2.png",
+      "/Portfolio/Brochures/Global Woodens House Brochure 3.png",
+      "/Portfolio/Visiting Cards/Global Woodens House.png",
+      "/Portfolio/Invoice/Global Woodens House.png"
     ],
-    "summary": "Abstract illustration series exploring the intersection of technology and human connection.",
-    "caseStudy": {
-      "problem": "Nexus Gallery commissioned a series of illustrations for their 'Digital Humanity' exhibition.",
-      "concept": "Abstract compositions that visualize the complex relationships between digital technology and human emotion.",
-      "process": "Developed a unique visual language combining organic forms with geometric digital elements.",
-      "outcome": "Series of 8 large-format illustrations with accompanying limited edition prints.",
-      "results": "Exhibition extended by 2 months due to popular demand, with 85% of prints sold."
-    }
-  },
-  {
-    "slug": "summit-conference-identity",
-    "title": "Summit Conference Identity",
-    "client": "Design Summit",
+    "tags": [
+      "Brochure Design",
+      "Marketing",
+      "Furniture",
+      "Print Design",
+      "Product Catalog"
+    ],
+    "technologies": [
+      "Adobe InDesign",
+      "Adobe Photoshop",
+      "Print Production",
+      "Layout Design"
+    ],
     "year": "2024",
-    "role": "Brand Designer",
-    "services": ["Event Branding", "Signage", "Digital Design"],
-    "tags": ["Branding", "Event", "Conference"],
-    "cover": "/images/projects/summit/cover.png",
+    "client": "Global Woodens House",
+    "featured": true,
+    "slug": "global-woodens-house"
+  },
+  {
+    "id": "shree-balaji-investments",
+    "title": "Shree Balaji Investments",
+    "category": "Financial Services Design",
+    "description": "Professional design materials for a financial services company including banners and invitation designs.",
+    "longDescription": "Developed sophisticated design materials for Shree Balaji Investments, focusing on trust, professionalism, and financial expertise. The designs include promotional banners and elegant invitation materials for their grand opening event. The design features luxury gold and black color scheme with traditional Indian motifs and modern financial graphics, reflecting the company's expertise in equities, SIP, mutual funds, and other investment services.",
+    "image": "/Portfolio/Banners/Shree Balaji Investments.png",
     "images": [
-      "/images/projects/summit/logo-system.jpg",
-      "/images/projects/summit/signage.jpg",
-      "/images/projects/summit/digital-assets.jpg"
+      "/Portfolio/Banners/Shree Balaji Investments.png",
+      "/Portfolio/Invitations/Shree Balaji Investments.png"
     ],
-    "summary": "Complete visual identity for a premier design conference bringing together industry leaders.",
-    "caseStudy": {
-      "problem": "Design Summit needed a sophisticated identity that would appeal to senior design professionals and reflect the conference's premium positioning.",
-      "concept": "Modular identity system based on the concept of 'elevation' - both literal and metaphorical growth in the design field.",
-      "process": "Created a flexible system that could adapt across multiple touchpoints from digital to large-scale environmental graphics.",
-      "outcome": "Comprehensive brand system including logo, typography, color palette, and application across 50+ touchpoints.",
-      "results": "Highest attendance in conference history with 95% satisfaction rating from attendees."
-    }
+    "tags": [
+      "Financial Services",
+      "Professional Design",
+      "Banners",
+      "Invitations",
+      "Event Design"
+    ],
+    "technologies": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Typography",
+      "Event Design"
+    ],
+    "year": "2024",
+    "client": "Shree Balaji Investments",
+    "featured": true,
+    "slug": "shree-balaji-investments"
+  },
+  {
+    "id": "charika-modi-banner",
+    "title": "Charika Modi Personal Branding",
+    "category": "Personal Branding",
+    "description": "Eye-catching banner design for personal branding and professional presentation.",
+    "longDescription": "Created a striking banner design for Charika Modi focusing on personal branding and professional image. The design balances modern aesthetics with personal touch, creating a memorable visual identity that reflects professionalism and approachability.",
+    "image": "/Portfolio/Banners/Charika Modi.png",
+    "images": ["/Portfolio/Banners/Charika Modi.png"],
+    "tags": [
+      "Personal Branding",
+      "Banner Design",
+      "Professional",
+      "Identity Design"
+    ],
+    "technologies": ["Adobe Photoshop", "Graphic Design", "Personal Branding"],
+    "year": "2024",
+    "client": "Charika Modi",
+    "featured": false,
+    "slug": "charika-modi-banner"
+  },
+  {
+    "id": "bhati-nashta-corner",
+    "title": "Bhati Nashta Corner Food Banner",
+    "category": "Food & Beverage",
+    "description": "Vibrant banner design for a food service business specializing in traditional Indian breakfast and snacks.",
+    "longDescription": "Designed an appetizing banner for Bhati Nashta Corner, capturing the essence of delicious street food and traditional Indian breakfast preparations. The design features mouth-watering food photography of Poha, Idli Sambar, and Maggi with vibrant colors and appetizing imagery to attract customers. The design incorporates traditional Hindi typography and modern layout elements.",
+    "image": "/Portfolio/Banners/Kamal ji Maggi.png",
+    "images": ["/Portfolio/Banners/Kamal ji Maggi.png"],
+    "tags": [
+      "Food Design",
+      "Banner",
+      "Restaurant",
+      "Street Food",
+      "Traditional Indian Food"
+    ],
+    "technologies": [
+      "Adobe Photoshop",
+      "Food Photography",
+      "Design",
+      "Hindi Typography"
+    ],
+    "year": "2024",
+    "client": "Bhati Nashta Corner",
+    "featured": false,
+    "slug": "bhati-nashta-corner"
+  },
+  {
+    "id": "visiting-cards-collection",
+    "title": "Professional Visiting Cards Collection",
+    "category": "Business Cards",
+    "description": "Diverse collection of professional visiting card designs for various industries and professionals.",
+    "longDescription": "Created a comprehensive collection of visiting card designs for different professionals including RJ Jewellery, Royal Enfield dealership, Design Develop Deploy, and Triveni Gas Agency. Each design is tailored to reflect the unique identity and professionalism of the respective business, featuring industry-specific design elements and color schemes.",
+    "image": "/Portfolio/Visiting Cards/RJ Jewellery.png",
+    "images": [
+      "/Portfolio/Visiting Cards/RJ Jewellery.png",
+      "/Portfolio/Visiting Cards/Dhiraj kumawat.png",
+      "/Portfolio/Visiting Cards/DDD.png",
+      "/Portfolio/Visiting Cards/Treveni Visiting Card.png",
+      "/Portfolio/Visiting Cards/Global Woodens House.png",
+      "/Portfolio/Visiting Cards/Sanwaliya Printing Solutions.png"
+    ],
+    "tags": [
+      "Business Cards",
+      "Professional Design",
+      "Identity",
+      "Print",
+      "Multi-Industry"
+    ],
+    "technologies": [
+      "Adobe Illustrator",
+      "Print Design",
+      "Typography",
+      "Brand Identity"
+    ],
+    "year": "2024",
+    "client": "Multiple Clients",
+    "featured": true,
+    "slug": "visiting-cards-collection"
+  },
+  {
+    "id": "invoice-templates",
+    "title": "Professional Invoice Templates",
+    "category": "Business Templates",
+    "description": "Clean and professional invoice template designs for various business documentation needs.",
+    "longDescription": "Developed clean, professional invoice templates that balance functionality with aesthetic appeal. The designs ensure clear information hierarchy while maintaining a professional appearance suitable for various business types. Features templates for Global Woodens House and Sanwaliya Printing Solutions with custom branding and layout optimization.",
+    "image": "/Portfolio/Invoice/Invoice.png",
+    "images": [
+      "/Portfolio/Invoice/Invoice.png",
+      "/Portfolio/Invoice/Global Woodens House.png"
+    ],
+    "tags": [
+      "Invoice Design",
+      "Business Templates",
+      "Documentation",
+      "Professional",
+      "Corporate Identity"
+    ],
+    "technologies": [
+      "Adobe InDesign",
+      "Template Design",
+      "Business Forms",
+      "Layout Design"
+    ],
+    "year": "2024",
+    "client": "Multiple Clients",
+    "featured": false,
+    "slug": "invoice-templates"
+  },
+  {
+    "id": "shree-ji-tuition-classes",
+    "title": "Shree Ji Tuition Classes Educational Banner",
+    "category": "Educational Design",
+    "description": "Bilingual educational banner design for tuition classes offering English medium education.",
+    "longDescription": "Created an elegant banner design for Shree Ji Tuition Classes, featuring bilingual content in English and Hindi. The design emphasizes educational excellence and professional teaching services for classes from Nursery to 7th grade, with decorative floral elements and clear hierarchy of information.",
+    "image": "/Portfolio/Banners/Charika Modi.png",
+    "images": ["/Portfolio/Banners/Charika Modi.png"],
+    "tags": [
+      "Educational Design",
+      "Banner",
+      "Bilingual",
+      "Teaching",
+      "Academic"
+    ],
+    "technologies": [
+      "Adobe Photoshop",
+      "Typography",
+      "Educational Design",
+      "Bilingual Layout"
+    ],
+    "year": "2024",
+    "client": "Shree Ji Tuition Classes",
+    "featured": false,
+    "slug": "shree-ji-tuition-classes"
   }
 ]

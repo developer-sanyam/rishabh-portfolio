@@ -105,7 +105,7 @@ export default function ContactPageClient() {
                         className={
                           method.primary
                             ? "bg-neon-lime text-charcoal hover:bg-neon-lime/90 font-semibold"
-                            : "border-off-white/30 text-off-white hover:bg-off-white hover:text-charcoal bg-transparent"
+                            : "border-off-white/30 text-off-white hover:bg-off-white hover:text-black bg-transparent"
                         }
                       >
                         <Link

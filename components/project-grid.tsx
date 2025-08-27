@@ -14,6 +14,7 @@ export function ProjectGrid() {
   const categories = useMemo(() => {
     const allCategories = new Set<string>()
     projectsData.forEach((project) => {
+      allCategories.add(project.category)
       project.tags.forEach((tag) => allCategories.add(tag))
     })
     return ["All", ...Array.from(allCategories).sort()]
@@ -25,7 +26,9 @@ export function ProjectGrid() {
 
     // Filter by category
     if (activeCategory !== "All") {
-      filtered = filtered.filter((project) => project.tags.includes(activeCategory))
+      filtered = filtered.filter((project) =>
+        project.category === activeCategory || project.tags.includes(activeCategory)
+      )
     }
 
     // Filter by search query
@@ -35,8 +38,10 @@ export function ProjectGrid() {
         (project) =>
           project.title.toLowerCase().includes(query) ||
           project.client.toLowerCase().includes(query) ||
+          project.category.toLowerCase().includes(query) ||
+          project.description.toLowerCase().includes(query) ||
           project.tags.some((tag) => tag.toLowerCase().includes(query)) ||
-          project.services.some((service) => service.toLowerCase().includes(query)),
+          project.technologies.some((tech) => tech.toLowerCase().includes(query)),
       )
     }
 
@@ -108,7 +113,7 @@ export function ProjectGrid() {
                   setActiveCategory("All")
                   setSearchQuery("")
                 }}
-                className="border border-off-white/30 text-off-white hover:bg-off-white hover:text-charcoal bg-transparent px-4 py-2 rounded-2xl transition-colors duration-200"
+                className="border border-off-white/30 text-off-white hover:bg-off-white hover:text-black bg-transparent px-4 py-2 rounded-2xl transition-colors duration-200"
               >
                 Clear Filters
               </button>
