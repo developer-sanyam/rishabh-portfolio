@@ -1,204 +1,117 @@
 [
   {
-    "id": "kavya-sahgal-architects",
-    "title": "Kavya Sahgal Architects",
-    "category": "Advertisement Design",
-    "description": "Comprehensive branding and advertisement design for an architectural firm, focusing on modern aesthetics and professional presentation.",
-    "longDescription": "Created a sophisticated advertisement campaign for Kavya Sahgal Architects, emphasizing their expertise in contemporary architectural design. The design incorporates clean lines, professional typography, and strategic use of white space to convey trust and expertise in the architectural field. The campaign features elegant interior photography showcasing their architectural excellence with luxury furniture and sophisticated design elements.",
+    "id": "advertisements",
+    "title": "Advertisements",
+    "category": "Advertisements",
+    "description": "A selection of advertisement creatives across industries.",
+    "longDescription": "Collection of print and digital advertisements showcasing clean layout, strong hierarchy and brand-forward messaging.",
     "image": "/Portfolio/Advertisements/Kavya Sahgal Architects.png",
     "images": [
       "/Portfolio/Advertisements/Kavya Sahgal Architects.png",
-      "/Portfolio/Advertisements/Kavya Sahgal Architects 1.png"
-    ],
-    "tags": [
-      "Branding",
-      "Advertisement",
-      "Architecture",
-      "Professional",
-      "Interior Design"
-    ],
-    "technologies": [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Print Design",
-      "Layout Design"
-    ],
-    "year": "2024",
-    "client": "Kavya Sahgal Architects",
-    "featured": true,
-    "slug": "kavya-sahgal-architects"
-  },
-  {
-    "id": "sanwaliya-printing-solutions",
-    "title": "Sanwaliya Printing Solutions",
-    "category": "Brand Identity",
-    "description": "Complete brand identity design including advertisements and visiting cards for a printing solutions company.",
-    "longDescription": "Developed a comprehensive brand identity for Sanwaliya Printing Solutions, including advertisement designs and visiting card layouts. The design emphasizes reliability, quality, and professionalism in the printing industry through strategic color choices and typography. The brand features a distinctive logo with traditional Indian design elements and modern geometric patterns.",
-    "image": "/Portfolio/Advertisements/Sanwaliya Printing Solutions.png",
-    "images": [
+      "/Portfolio/Advertisements/Kavya Sahgal Architects 1.png",
       "/Portfolio/Advertisements/Sanwaliya Printing Solutions.png",
-      "/Portfolio/Advertisements/SPS 2.png",
-      "/Portfolio/Visiting Cards/Sanwaliya Printing Solutions.png"
+      "/Portfolio/Advertisements/SPS 2.png"
     ],
-    "tags": [
-      "Brand Identity",
-      "Print Design",
-      "Advertisement",
-      "Business Cards",
-      "Logo Design"
-    ],
-    "technologies": [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Brand Design",
-      "Typography"
-    ],
+    "tags": ["Ads", "Print", "Brand"],
+    "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
     "year": "2024",
-    "client": "Sanwaliya Printing Solutions",
+    "client": "Multiple",
     "featured": true,
-    "slug": "sanwaliya-printing-solutions"
+    "slug": "advertisements"
   },
   {
-    "id": "mobile-app-ui",
-    "title": "Mobile App UI",
-    "category": "UI/UX Design",
-    "description": "Modern mobile application user interface design with focus on user experience and contemporary design trends.",
-    "longDescription": "Designed a sleek and intuitive mobile application interface for Priyanshu Fulwani. The design focuses on user-centric approach with modern UI elements, smooth interactions, and a clean visual hierarchy that enhances user engagement and usability. Features include login/register screens, profile management, and social media integration with a cohesive blue and white color scheme.",
+    "id": "app-ui-design",
+    "title": "App UI Design",
+    "category": "App UI Design",
+    "description": "Mobile application UI screens and flows.",
+    "longDescription": "Modern mobile UI with onboarding, auth, profile and content experiences designed for clarity and usability.",
     "image": "/Portfolio/App UI Design/Priyanshu Fulwani UI.png",
     "images": ["/Portfolio/App UI Design/Priyanshu Fulwani UI.png"],
-    "tags": [
-      "UI Design",
-      "UX Design",
-      "Mobile App",
-      "User Interface",
-      "Prototyping"
-    ],
-    "technologies": [
-      "Figma",
-      "Adobe XD",
-      "User Research",
-      "Prototyping",
-      "Mobile Design"
-    ],
+    "tags": ["UI", "UX", "Mobile"],
+    "technologies": ["Figma", "Adobe XD"],
     "year": "2024",
     "client": "Priyanshu Fulwani",
-    "featured": true,
-    "slug": "priyanshu-fulwani-ui"
+    "featured": false,
+    "slug": "app-ui-design"
   },
   {
-    "id": "global-woodens-house",
-    "title": "Global Woodens House",
-    "category": "Marketing Materials",
-    "description": "Complete marketing package including brochures, visiting cards, and invoice design for a wooden furniture company.",
-    "longDescription": "Created a comprehensive marketing materials package for Global Woodens House, featuring detailed product brochures showcasing their wooden furniture collection, professional visiting cards, and well-designed invoice templates. The design emphasizes the natural beauty and quality of wooden products through rich wood textures and elegant typography, featuring traditional Indian wooden swings and furniture pieces.",
+    "id": "banners",
+    "title": "Banners",
+    "category": "Banners",
+    "description": "Brand and promotional banner designs.",
+    "longDescription": "Promotional banners for events, personal branding and F&B with compelling typography and imagery.",
+    "image": "/Portfolio/Banners/Shree Balaji Investments.png",
+    "images": [
+      "/Portfolio/Banners/Shree Balaji Investments.png",
+      "/Portfolio/Banners/Charika Modi.png",
+      "/Portfolio/Banners/Kamal ji Maggi.png"
+    ],
+    "tags": ["Promotion", "Event", "Brand"],
+    "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+    "year": "2024",
+    "client": "Multiple",
+    "featured": true,
+    "slug": "banners"
+  },
+  {
+    "id": "brochures",
+    "title": "Brochures",
+    "category": "Brochures",
+    "description": "Product and company brochures.",
+    "longDescription": "Brochure series crafted with rich textures and clear information architecture to present products effectively.",
     "image": "/Portfolio/Brochures/Global Woodens House Brochure.png",
     "images": [
       "/Portfolio/Brochures/Global Woodens House Brochure.png",
       "/Portfolio/Brochures/Global Woodens House Brochure 1.png",
       "/Portfolio/Brochures/Global Woodens House Brochure 2.png",
-      "/Portfolio/Brochures/Global Woodens House Brochure 3.png",
-      "/Portfolio/Visiting Cards/Global Woodens House.png",
-      "/Portfolio/Invoice/Global Woodens House.png"
+      "/Portfolio/Brochures/Global Woodens House Brochure 3.png"
     ],
-    "tags": [
-      "Brochure Design",
-      "Marketing",
-      "Furniture",
-      "Print Design",
-      "Product Catalog"
-    ],
-    "technologies": [
-      "Adobe InDesign",
-      "Adobe Photoshop",
-      "Print Production",
-      "Layout Design"
-    ],
+    "tags": ["Brochure", "Catalog", "Print"],
+    "technologies": ["Adobe InDesign", "Adobe Photoshop"],
     "year": "2024",
     "client": "Global Woodens House",
     "featured": true,
-    "slug": "global-woodens-house"
+    "slug": "brochures"
   },
   {
-    "id": "shree-balaji-investments",
-    "title": "Shree Balaji Investments",
-    "category": "Financial Services Design",
-    "description": "Professional design materials for a financial services company including banners and invitation designs.",
-    "longDescription": "Developed sophisticated design materials for Shree Balaji Investments, focusing on trust, professionalism, and financial expertise. The designs include promotional banners and elegant invitation materials for their grand opening event. The design features luxury gold and black color scheme with traditional Indian motifs and modern financial graphics, reflecting the company's expertise in equities, SIP, mutual funds, and other investment services.",
-    "image": "/Portfolio/Banners/Shree Balaji Investments.png",
-    "images": [
-      "/Portfolio/Banners/Shree Balaji Investments.png",
-      "/Portfolio/Invitations/Shree Balaji Investments.png"
-    ],
-    "tags": [
-      "Financial Services",
-      "Professional Design",
-      "Banners",
-      "Invitations",
-      "Event Design"
-    ],
-    "technologies": [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Typography",
-      "Event Design"
-    ],
+    "id": "invitations",
+    "title": "Invitations",
+    "category": "Invitations",
+    "description": "Event invitations and cards.",
+    "longDescription": "Elegant invitation compositions balancing premium aesthetics and legible event details.",
+    "image": "/Portfolio/Invitations/Shree Balaji Investments.png",
+    "images": ["/Portfolio/Invitations/Shree Balaji Investments.png"],
+    "tags": ["Event", "Invitation", "Luxury"],
+    "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
     "year": "2024",
     "client": "Shree Balaji Investments",
     "featured": true,
-    "slug": "shree-balaji-investments"
+    "slug": "invitations"
   },
   {
-    "id": "charika-modi-banner",
-    "title": "Charika Modi Personal Branding",
-    "category": "Personal Branding",
-    "description": "Eye-catching banner design for personal branding and professional presentation.",
-    "longDescription": "Created a striking banner design for Charika Modi focusing on personal branding and professional image. The design balances modern aesthetics with personal touch, creating a memorable visual identity that reflects professionalism and approachability.",
-    "image": "/Portfolio/Banners/Charika Modi.png",
-    "images": ["/Portfolio/Banners/Charika Modi.png"],
-    "tags": [
-      "Personal Branding",
-      "Banner Design",
-      "Professional",
-      "Identity Design"
+    "id": "invoice",
+    "title": "Invoice",
+    "category": "Invoice",
+    "description": "Business invoice templates and layouts.",
+    "longDescription": "Clean, professional invoice templates aligned to brand identity with clear hierarchy and totals.",
+    "image": "/Portfolio/Invoice/Invoice.png",
+    "images": [
+      "/Portfolio/Invoice/Invoice.png",
+      "/Portfolio/Invoice/Global Woodens House.png"
     ],
-    "technologies": ["Adobe Photoshop", "Graphic Design", "Personal Branding"],
+    "tags": ["Template", "Business", "Finance"],
+    "technologies": ["Adobe InDesign"],
     "year": "2024",
-    "client": "Charika Modi",
-    "featured": false,
-    "slug": "charika-modi-banner"
+    "client": "Multiple",
+    "featured": true,
+    "slug": "invoice"
   },
   {
-    "id": "bhati-nashta-corner",
-    "title": "Bhati Nashta Corner Food Banner",
-    "category": "Food & Beverage",
-    "description": "Vibrant banner design for a food service business specializing in traditional Indian breakfast and snacks.",
-    "longDescription": "Designed an appetizing banner for Bhati Nashta Corner, capturing the essence of delicious street food and traditional Indian breakfast preparations. The design features mouth-watering food photography of Poha, Idli Sambar, and Maggi with vibrant colors and appetizing imagery to attract customers. The design incorporates traditional Hindi typography and modern layout elements.",
-    "image": "/Portfolio/Banners/Kamal ji Maggi.png",
-    "images": ["/Portfolio/Banners/Kamal ji Maggi.png"],
-    "tags": [
-      "Food Design",
-      "Banner",
-      "Restaurant",
-      "Street Food",
-      "Traditional Indian Food"
-    ],
-    "technologies": [
-      "Adobe Photoshop",
-      "Food Photography",
-      "Design",
-      "Hindi Typography"
-    ],
-    "year": "2024",
-    "client": "Bhati Nashta Corner",
-    "featured": false,
-    "slug": "bhati-nashta-corner"
-  },
-  {
-    "id": "visiting-cards-collection",
-    "title": "Professional Visiting Cards Collection",
-    "category": "Business Cards",
-    "description": "Diverse collection of professional visiting card designs for various industries and professionals.",
-    "longDescription": "Created a comprehensive collection of visiting card designs for different professionals including RJ Jewellery, Royal Enfield dealership, Design Develop Deploy, and Triveni Gas Agency. Each design is tailored to reflect the unique identity and professionalism of the respective business, featuring industry-specific design elements and color schemes.",
+    "id": "visiting-cards",
+    "title": "Visiting Cards",
+    "category": "Visiting Cards",
+    "description": "Business card designs across industries.",
+    "longDescription": "Cards tailored for diverse sectors – from jewellery and furniture to gas distribution and tech – each reflecting unique brand character.",
     "image": "/Portfolio/Visiting Cards/RJ Jewellery.png",
     "images": [
       "/Portfolio/Visiting Cards/RJ Jewellery.png",
@@ -208,77 +121,11 @@
       "/Portfolio/Visiting Cards/Global Woodens House.png",
       "/Portfolio/Visiting Cards/Sanwaliya Printing Solutions.png"
     ],
-    "tags": [
-      "Business Cards",
-      "Professional Design",
-      "Identity",
-      "Print",
-      "Multi-Industry"
-    ],
-    "technologies": [
-      "Adobe Illustrator",
-      "Print Design",
-      "Typography",
-      "Brand Identity"
-    ],
+    "tags": ["Identity", "Stationery", "Print"],
+    "technologies": ["Adobe Illustrator", "Typography"],
     "year": "2024",
-    "client": "Multiple Clients",
+    "client": "Multiple",
     "featured": true,
-    "slug": "visiting-cards-collection"
-  },
-  {
-    "id": "invoice-templates",
-    "title": "Professional Invoice Templates",
-    "category": "Business Templates",
-    "description": "Clean and professional invoice template designs for various business documentation needs.",
-    "longDescription": "Developed clean, professional invoice templates that balance functionality with aesthetic appeal. The designs ensure clear information hierarchy while maintaining a professional appearance suitable for various business types. Features templates for Global Woodens House and Sanwaliya Printing Solutions with custom branding and layout optimization.",
-    "image": "/Portfolio/Invoice/Invoice.png",
-    "images": [
-      "/Portfolio/Invoice/Invoice.png",
-      "/Portfolio/Invoice/Global Woodens House.png"
-    ],
-    "tags": [
-      "Invoice Design",
-      "Business Templates",
-      "Documentation",
-      "Professional",
-      "Corporate Identity"
-    ],
-    "technologies": [
-      "Adobe InDesign",
-      "Template Design",
-      "Business Forms",
-      "Layout Design"
-    ],
-    "year": "2024",
-    "client": "Multiple Clients",
-    "featured": false,
-    "slug": "invoice-templates"
-  },
-  {
-    "id": "shree-ji-tuition-classes",
-    "title": "Shree Ji Tuition Classes Educational Banner",
-    "category": "Educational Design",
-    "description": "Bilingual educational banner design for tuition classes offering English medium education.",
-    "longDescription": "Created an elegant banner design for Shree Ji Tuition Classes, featuring bilingual content in English and Hindi. The design emphasizes educational excellence and professional teaching services for classes from Nursery to 7th grade, with decorative floral elements and clear hierarchy of information.",
-    "image": "/Portfolio/Banners/Charika Modi.png",
-    "images": ["/Portfolio/Banners/Charika Modi.png"],
-    "tags": [
-      "Educational Design",
-      "Banner",
-      "Bilingual",
-      "Teaching",
-      "Academic"
-    ],
-    "technologies": [
-      "Adobe Photoshop",
-      "Typography",
-      "Educational Design",
-      "Bilingual Layout"
-    ],
-    "year": "2024",
-    "client": "Shree Ji Tuition Classes",
-    "featured": false,
-    "slug": "shree-ji-tuition-classes"
+    "slug": "visiting-cards"
   }
 ]

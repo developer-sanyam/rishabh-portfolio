@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
-import { motion, AnimatePresence } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
 import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -130,13 +130,13 @@ export function Lightbox({ images, isOpen, currentIndex, onClose, onNavigate }: 
 
         {/* Image */}
         <div className="flex items-center justify-center h-full p-16">
-          <motion.div className="relative max-w-full max-h-full" style={{ scale }} onClick={(e) => e.stopPropagation()}>
+          <motion.div className="relative max-w-full max-h-[80vh] overflow-y-scroll" style={{ scale }} onClick={(e) => e.stopPropagation()}>
             <Image
               src={images[currentIndex] || "/placeholder.svg"}
               alt={`Project image ${currentIndex + 1}`}
-              width={1200}
-              height={800}
-              className="max-w-full max-h-full object-contain"
+              width={1000}
+              height={500}
+              className="max-w-full max-h-full object-contain bg-gray-200"
               priority
             />
           </motion.div>
@@ -147,15 +147,14 @@ export function Lightbox({ images, isOpen, currentIndex, onClose, onNavigate }: 
           <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
             <div className="flex items-center gap-2 bg-charcoal/80 backdrop-blur-sm rounded-full p-2">
               {images.map((image, index) => (
-                <button
+                <Button
                   key={index}
                   onClick={(e) => {
                     e.stopPropagation()
                     onNavigate(index)
                   }}
-                  className={`relative w-12 h-12 rounded-lg overflow-hidden transition-all duration-200 ${
-                    index === currentIndex ? "ring-2 ring-neon-lime" : "opacity-70 hover:opacity-100"
-                  }`}
+                  className={`relative w-12 h-12 rounded-lg overflow-hidden transition-all duration-200 ${index === currentIndex ? "ring-2 ring-neon-lime" : "opacity-70 hover:opacity-100"
+                    }`}
                 >
                   <Image
                     src={image || "/placeholder.svg"}
@@ -163,7 +162,7 @@ export function Lightbox({ images, isOpen, currentIndex, onClose, onNavigate }: 
                     fill
                     className="object-cover"
                   />
-                </button>
+                </Button>
               ))}
             </div>
           </div>

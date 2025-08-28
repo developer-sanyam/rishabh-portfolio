@@ -42,9 +42,9 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       onHoverEnd={() => setIsHovered(false)}
       whileHover={{ y: -8 }}
     >
-      <Link href={`/work/${project.slug}`} className="block focus-ring rounded-2xl">
+      <Link href={`/work/${project.slug}`} className="block focus-ring rounded-2xl h-full">
         <motion.div
-          className="relative overflow-hidden rounded-2xl bg-muted-gray border border-off-white/10 hover:border-neon-lime/30 transition-all duration-300"
+          className="relative overflow-hidden rounded-2xl bg-muted-gray border border-off-white/10 hover:border-neon-lime/30 transition-all duration-300 h-full"
           whileHover={{ rotateY: 2, rotateX: 2 }}
           style={{ transformStyle: "preserve-3d" }}
         >
@@ -54,7 +54,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
               src={project.image || "/placeholder.svg"}
               alt={project.title}
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              className="object-cover transition-transform duration-500 group-hover:scale-105 bg-gray-200"
             />
 
             {/* Overlay */}
@@ -76,7 +76,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                       <span className="text-sm font-medium">{project.category}</span>
                     </div>
                     <div className="flex items-center gap-2 mb-3">
-                      <Calendar className="w-4 h-4 text-electric-blue" />
+                      <Calendar className="w-4 h-4 text-black" />
                       <span className="text-sm">{project.year}</span>
                     </div>
                     <div className="flex flex-wrap gap-2">
@@ -93,7 +93,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
 
             {/* View Project Icon */}
             <motion.div
-              className="absolute top-4 right-4 w-10 h-10 bg-neon-lime text-charcoal rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              className="absolute top-4 right-4 w-10 h-10 bg-gray-200 text-charcoal rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               whileHover={{ scale: 1.1, rotate: 90 }}
               whileTap={{ scale: 0.95 }}
             >

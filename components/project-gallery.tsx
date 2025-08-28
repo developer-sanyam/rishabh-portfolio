@@ -40,7 +40,7 @@ export function ProjectGallery({ images, title }: ProjectGalleryProps) {
                 src={images[0] || "/placeholder.svg"}
                 alt={`${title} - Main image`}
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                className="object-cover transition-transform duration-500 group-hover:scale-105 bg-gray-200"
                 priority
               />
               <div className="absolute inset-0 bg-charcoal/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -70,7 +70,7 @@ export function ProjectGallery({ images, title }: ProjectGalleryProps) {
                     src={image || "/placeholder.svg"}
                     alt={`${title} - Image ${index + 2}`}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105 bg-gray-200"
                   />
                   <div className="absolute inset-0 bg-charcoal/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <div className="w-10 h-10 bg-neon-lime text-charcoal rounded-full flex items-center justify-center">
