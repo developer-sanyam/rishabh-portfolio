@@ -5,12 +5,12 @@
     "category": "Advertisements",
     "description": "A selection of advertisement creatives across industries.",
     "longDescription": "Collection of print and digital advertisements showcasing clean layout, strong hierarchy and brand-forward messaging.",
-    "image": "/Portfolio/Advertisements/Kavya Sahgal Architects.png",
+    "image": "/Portfolio/Advertisements/Kavya Sahgal Architects.webp",
     "images": [
-      "/Portfolio/Advertisements/Kavya Sahgal Architects.png",
-      "/Portfolio/Advertisements/Kavya Sahgal Architects 1.png",
-      "/Portfolio/Advertisements/Sanwaliya Printing Solutions.png",
-      "/Portfolio/Advertisements/SPS 2.png"
+      "/Portfolio/Advertisements/Kavya Sahgal Architects.webp",
+      "/Portfolio/Advertisements/Kavya Sahgal Architects 1.webp",
+      "/Portfolio/Advertisements/Sanwaliya Printing Solutions.webp",
+      "/Portfolio/Advertisements/SPS 2.webp"
     ],
     "tags": ["Ads", "Print", "Brand"],
     "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
@@ -25,8 +25,8 @@
     "category": "App UI Design",
     "description": "Mobile application UI screens and flows.",
     "longDescription": "Modern mobile UI with onboarding, auth, profile and content experiences designed for clarity and usability.",
-    "image": "/Portfolio/App UI Design/Priyanshu Fulwani UI.png",
-    "images": ["/Portfolio/App UI Design/Priyanshu Fulwani UI.png"],
+    "image": "/Portfolio/App UI Design/Priyanshu Fulwani UI.webp",
+    "images": ["/Portfolio/App UI Design/Priyanshu Fulwani UI.webp"],
     "tags": ["UI", "UX", "Mobile"],
     "technologies": ["Figma", "Adobe XD"],
     "year": "2024",
@@ -40,11 +40,11 @@
     "category": "Banners",
     "description": "Brand and promotional banner designs.",
     "longDescription": "Promotional banners for events, personal branding and F&B with compelling typography and imagery.",
-    "image": "/Portfolio/Banners/Shree Balaji Investments.png",
+    "image": "/Portfolio/Banners/Shree Balaji Investments.webp",
     "images": [
-      "/Portfolio/Banners/Shree Balaji Investments.png",
-      "/Portfolio/Banners/Charika Modi.png",
-      "/Portfolio/Banners/Kamal ji Maggi.png"
+      "/Portfolio/Banners/Shree Balaji Investments.webp",
+      "/Portfolio/Banners/Charika Modi.webp",
+      "/Portfolio/Banners/Kamal ji Maggi.webp"
     ],
     "tags": ["Promotion", "Event", "Brand"],
     "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
@@ -59,12 +59,12 @@
     "category": "Brochures",
     "description": "Product and company brochures.",
     "longDescription": "Brochure series crafted with rich textures and clear information architecture to present products effectively.",
-    "image": "/Portfolio/Brochures/Global Woodens House Brochure.png",
+    "image": "/Portfolio/Brochures/Global Woodens House Brochure.webp",
     "images": [
-      "/Portfolio/Brochures/Global Woodens House Brochure.png",
-      "/Portfolio/Brochures/Global Woodens House Brochure 1.png",
-      "/Portfolio/Brochures/Global Woodens House Brochure 2.png",
-      "/Portfolio/Brochures/Global Woodens House Brochure 3.png"
+      "/Portfolio/Brochures/Global Woodens House Brochure.webp",
+      "/Portfolio/Brochures/Global Woodens House Brochure 1.webp",
+      "/Portfolio/Brochures/Global Woodens House Brochure 2.webp",
+      "/Portfolio/Brochures/Global Woodens House Brochure 3.webp"
     ],
     "tags": ["Brochure", "Catalog", "Print"],
     "technologies": ["Adobe InDesign", "Adobe Photoshop"],
@@ -79,8 +79,8 @@
     "category": "Invitations",
     "description": "Event invitations and cards.",
     "longDescription": "Elegant invitation compositions balancing premium aesthetics and legible event details.",
-    "image": "/Portfolio/Invitations/Shree Balaji Investments.png",
-    "images": ["/Portfolio/Invitations/Shree Balaji Investments.png"],
+    "image": "/Portfolio/Invitations/Shree Balaji Investments.webp",
+    "images": ["/Portfolio/Invitations/Shree Balaji Investments.webp"],
     "tags": ["Event", "Invitation", "Luxury"],
     "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
     "year": "2024",
@@ -94,10 +94,10 @@
     "category": "Invoice",
     "description": "Business invoice templates and layouts.",
     "longDescription": "Clean, professional invoice templates aligned to brand identity with clear hierarchy and totals.",
-    "image": "/Portfolio/Invoice/Invoice.png",
+    "image": "/Portfolio/Invoice/Invoice.webp",
     "images": [
-      "/Portfolio/Invoice/Invoice.png",
-      "/Portfolio/Invoice/Global Woodens House.png"
+      "/Portfolio/Invoice/Invoice.webp",
+      "/Portfolio/Invoice/Global Woodens House.webp"
     ],
     "tags": ["Template", "Business", "Finance"],
     "technologies": ["Adobe InDesign"],
@@ -112,14 +112,14 @@
     "category": "Visiting Cards",
     "description": "Business card designs across industries.",
     "longDescription": "Cards tailored for diverse sectors – from jewellery and furniture to gas distribution and tech – each reflecting unique brand character.",
-    "image": "/Portfolio/Visiting Cards/RJ Jewellery.png",
+    "image": "/Portfolio/Visiting Cards/RJ Jewellery.webp",
     "images": [
-      "/Portfolio/Visiting Cards/RJ Jewellery.png",
-      "/Portfolio/Visiting Cards/Dhiraj kumawat.png",
-      "/Portfolio/Visiting Cards/DDD.png",
-      "/Portfolio/Visiting Cards/Treveni Visiting Card.png",
-      "/Portfolio/Visiting Cards/Global Woodens House.png",
-      "/Portfolio/Visiting Cards/Sanwaliya Printing Solutions.png"
+      "/Portfolio/Visiting Cards/RJ Jewellery.webp",
+      "/Portfolio/Visiting Cards/Dhiraj kumawat.webp",
+      "/Portfolio/Visiting Cards/DDD.webp",
+      "/Portfolio/Visiting Cards/Treveni Visiting Card.webp",
+      "/Portfolio/Visiting Cards/Global Woodens House.webp",
+      "/Portfolio/Visiting Cards/Sanwaliya Printing Solutions.webp"
     ],
     "tags": ["Identity", "Stationery", "Print"],
     "technologies": ["Adobe Illustrator", "Typography"],
