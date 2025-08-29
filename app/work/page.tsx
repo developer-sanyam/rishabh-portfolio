@@ -4,15 +4,15 @@ import { ProjectGrid } from "@/components/project-grid"
 import { CTASection } from "@/components/cta-section"
 
 export const metadata: Metadata = {
-  title: "Work - Rishabh Prajapat | Graphic Designer",
+  title: "Work - GraphiqNest | Graphic Design Studio",
   description:
-    "Explore my portfolio of graphic design projects including brand identity, packaging design, editorial layouts, and visual storytelling.",
+    "Explore our portfolio of graphic design projects including brand identity, packaging design, editorial layouts, and visual storytelling.",
   keywords: ["portfolio", "graphic design projects", "brand identity", "packaging design", "editorial design"],
   openGraph: {
-    title: "Work - Rishabh Prajapat | Graphic Designer",
+    title: "Work - GraphiqNest | Graphic Design Studio",
     description:
-      "Explore my portfolio of graphic design projects including brand identity, packaging design, editorial layouts, and visual storytelling.",
-    url: "https://rishabhprajapat.com/work",
+      "Explore our portfolio of graphic design projects including brand identity, packaging design, editorial layouts, and visual storytelling.",
+    url: "https://graphiqnest.com/work",
   },
 }
 

@@ -31,9 +31,9 @@ const contactMethods = [
     icon: Mail,
     title: "Email",
     description: "Formal inquiries and detailed project briefs",
-    value: "rishabh@example.com",
+    value: "rishabhprajapat565@gmail.com",
     action: "Send Email",
-    href: "mailto:rishabh@example.com",
+    href: "mailto:rishabhprajapat565@gmail.com",
     primary: false,
   },
 ]
@@ -67,6 +67,15 @@ export default function ContactPageClient() {
       {/* Hero Section */}
       <section >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          {/* Logo */}
+          <div className="mb-12 text-center">
+            <img
+              src="/logo.png"
+              alt="GraphiqNest Logo"
+              className="w-24 h-24 mx-auto object-contain"
+            />
+          </div>
+
           <SectionTitle
             eyebrow="Get In Touch"
             title="Let's Create Something Amazing Together"

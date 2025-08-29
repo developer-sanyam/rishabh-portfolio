@@ -25,13 +25,13 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   }
 
   return {
-    title: `${project.title} - ${project.client} | Rishabh Prajapat`,
+    title: `${project.title} - ${project.client} | GraphiqNest`,
     description: project.description,
     keywords: [...project.tags, ...project.technologies, project.client, project.category, "graphic design"],
     openGraph: {
       title: `${project.title} - ${project.client}`,
       description: project.description,
-      url: `https://rishabhprajapat.com/work/${project.slug}`,
+      url: `https://graphiqnest.com/work/${project.slug}`,
       images: [
         {
           url: project.image,

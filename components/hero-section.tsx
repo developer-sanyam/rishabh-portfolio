@@ -20,6 +20,20 @@ export function HeroSection() {
 
       <div className="container mx-auto py-4 relative z-10">
         <div className="text-center max-w-5xl mx-auto">
+          {/* Logo */}
+          <motion.div
+            className="mb-8 sm:mb-12"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <img
+              src="/logo.png"
+              alt="GraphiqNest Logo"
+              className="w-24 h-24 sm:w-32 sm:h-32 mx-auto object-contain"
+            />
+          </motion.div>
+
           {/* Main Headline */}
           <motion.h1
             className="font-display text-responsive-3xl font-bold text-off-white leading-tight mb-6 sm:mb-8"

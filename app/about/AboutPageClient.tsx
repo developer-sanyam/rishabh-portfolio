@@ -80,7 +80,7 @@ export default function AboutPageClient() {
               <div className="relative aspect-[3/4] max-w-md mx-auto lg:mx-0 rounded-2xl overflow-hidden">
                 <Image
                   src="/graphic-designer-portrait.png"
-                  alt="Rishabh Prajapat - Graphic Designer"
+                  alt="GraphiqNest - Graphic Design Studio"
                   fill
                   className="object-cover"
                   priority
@@ -91,6 +91,15 @@ export default function AboutPageClient() {
 
             {/* Bio Content */}
             <div className="order-1 lg:order-2">
+              {/* Logo */}
+              <div className="mb-8 text-center lg:text-left">
+                <img
+                  src="/logo.png"
+                  alt="GraphiqNest Logo"
+                  className="w-20 h-20 lg:w-24 lg:h-24 mx-auto lg:mx-0 object-contain"
+                />
+              </div>
+
               <SectionTitle
                 eyebrow="About Me"
                 title="Crafting Visual Stories That Connect"

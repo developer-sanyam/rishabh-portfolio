@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import projectsData from "@/data/projects.json";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://rishabhprajapat.com";
+  const baseUrl = "https://graphiqnest.com";
   const currentDate = new Date().toISOString();
 
   // Static pages

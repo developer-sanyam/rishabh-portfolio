@@ -25,8 +25,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Rishabh Prajapat - Professional Graphic Designer",
-    template: "%s | Rishabh Prajapat - Graphic Designer",
+    default: "GraphiqNest - Professional Graphic Design Studio",
+    template: "%s | GraphiqNest - Graphic Design Studio",
   },
   description:
     "Professional Graphic Designer crafting compelling brand identities, packaging designs, and visual communications. Specializing in modern design solutions that drive results.",
@@ -41,39 +41,39 @@ export const metadata: Metadata = {
     "creative director",
     "design consultant",
   ],
-  authors: [{ name: "Rishabh Prajapat", url: "https://rishabhprajapat.com" }],
-  creator: "Rishabh Prajapat",
-  publisher: "Rishabh Prajapat",
+  authors: [{ name: "GraphiqNest", url: "https://graphiqnest.com" }],
+  creator: "GraphiqNest",
+  publisher: "GraphiqNest",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://rishabhprajapat.com"),
+  metadataBase: new URL("https://graphiqnest.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://rishabhprajapat.com",
-    siteName: "Rishabh Prajapat - Graphic Designer",
-    title: "Rishabh Prajapat - Professional Graphic Designer",
+    url: "https://graphiqnest.com",
+    siteName: "GraphiqNest - Graphic Design Studio",
+    title: "GraphiqNest - Professional Graphic Design Studio",
     description: "Professional Graphic Designer crafting compelling brand identities & visual communications",
     images: [
       {
-        url: "/graphic-designer-portrait.png",
+        url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Rishabh Prajapat - Graphic Designer",
+        alt: "GraphiqNest - Graphic Design Studio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rishabh Prajapat - Professional Graphic Designer",
-    description: "Professional Graphic Designer crafting compelling brand identities & visual communications",
-    images: ["/graphic-designer-portrait.png"],
+    title: "GraphiqNest - Professional Graphic Design Studio",
+    description: "Professional Graphic Design Studio crafting compelling brand identities & visual communications",
+    images: ["/logo.png"],
   },
   robots: {
     index: true,
@@ -100,6 +100,8 @@ export default function RootLayout({
     <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
       </head>
       <body className="bg-charcoal text-off-white font-body antialiased">
         <ScrollProgress />

@@ -1,4 +1,4 @@
-# Rishabh Prajapat - Portfolio Website
+# GraphiqNest - Portfolio Website
 
 A modern, responsive portfolio website built with Next.js 15 and Tailwind CSS v4, showcasing graphic design work and professional services.
 
@@ -185,9 +185,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Portfolio Owner
 
-**Rishabh Prajapat** - Graphic Designer & Creative Professional
+**GraphiqNest** - Graphic Design Studio & Creative Professional
 
-- Portfolio: [rishabhprajapat.com](https://rishabhprajapat.com)
+- Portfolio: [graphiqnest.com](https://graphiqnest.com)
 - WhatsApp: [+91 95291 55325](https://wa.me/919529155325)
 
 ## 🚀 Developer

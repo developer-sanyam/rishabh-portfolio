@@ -7,6 +7,7 @@ import { motion } from "framer-motion"
 import { Menu, Phone, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import Image from "next/image"
 
 const navigation = [
   { name: "Work", href: "/work" },
@@ -42,9 +43,16 @@ export function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="font-display text-xl lg:text-2xl font-bold text-off-white hover:text-neon-lime transition-colors duration-200 focus-ring"
+            className="flex items-center gap-3 font-display text-xl lg:text-2xl font-bold text-off-white hover:text-neon-lime transition-colors duration-200 focus-ring"
           >
-            Rishabh Prajapat
+            <Image
+              src="/logo.png"
+              alt="GraphiqNest Logo"
+              className="w-8 h-8 lg:w-10 lg:h-10 object-contain"
+              width={40}
+              height={40}
+            />
+            <span>GraphiqNest</span>
           </Link>
 
           {/* Desktop Navigation */}

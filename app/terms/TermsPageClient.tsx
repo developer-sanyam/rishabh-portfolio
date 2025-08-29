@@ -48,7 +48,7 @@ export default function TermsPageClient() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-off-white mb-4">2. Services</h2>
                             <p className="text-off-white/80 leading-relaxed mb-4">
-                                Rishabh Prajapat provides graphic design services including but not limited to:
+                                GraphiqNest provides graphic design services including but not limited to:
                             </p>
                             <ul className="list-disc list-inside text-off-white/80 space-y-2 mb-4 ml-4">
                                 <li>Brand identity design</li>
@@ -111,7 +111,7 @@ export default function TermsPageClient() {
                                 <div>
                                     <h3 className="text-lg font-semibold text-off-white mb-2">5.1 Ownership</h3>
                                     <p className="text-off-white/80 leading-relaxed">
-                                        Upon full payment, you will own the rights to the final approved designs. Rishabh Prajapat retains the right to display completed work in portfolios and marketing materials.
+                                        Upon full payment, you will own the rights to the final approved designs. GraphiqNest retains the right to display completed work in portfolios and marketing materials.
                                     </p>
                                 </div>
                                 <div>
@@ -142,7 +142,7 @@ export default function TermsPageClient() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-off-white mb-4">7. Limitation of Liability</h2>
                             <p className="text-off-white/80 leading-relaxed mb-4">
-                                Rishabh Prajapat's liability shall not exceed the total amount paid for the specific project. We are not responsible for any indirect, incidental, or consequential damages.
+                                GraphiqNest's liability shall not exceed the total amount paid for the specific project. We are not responsible for any indirect, incidental, or consequential damages.
                             </p>
                         </section>
 
@@ -185,9 +185,9 @@ export default function TermsPageClient() {
                                 If you have any questions about these Terms of Service, please contact us:
                             </p>
                             <div className="space-y-2 text-off-white/80">
-                                <p><strong>Email:</strong> contact@rishabhprajapat.com</p>
+                                <p><strong>Email:</strong> rishabhprajapat565@gmail.com</p>
                                 <p><strong>WhatsApp:</strong> <Link href="https://wa.me/919529155325" className="text-neon-lime hover:text-electric-blue transition-colors">+91 95291 55325</Link></p>
-                                <p><strong>Website:</strong> <Link href="/" className="text-neon-lime hover:text-electric-blue transition-colors">rishabhprajapat.com</Link></p>
+                                <p><strong>Website:</strong> <Link href="/" className="text-neon-lime hover:text-electric-blue transition-colors">graphiqnest.com</Link></p>
                             </div>
                         </section>
                     </div>

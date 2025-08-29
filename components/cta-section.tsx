@@ -87,10 +87,10 @@ export function CTASection() {
           >
             <p className="text-off-white/60 text-sm mb-2">Prefer email?</p>
             <Link
-              href="mailto:rishabh@example.com"
+              href="mailto:rishabhprajapat565@gmail.com"
               className="text-electric-blue hover:text-neon-lime transition-colors duration-200 focus-ring"
             >
-              rishabh@example.com
+              rishabhprajapat565@gmail.com
             </Link>
           </motion.div>
         </motion.div>

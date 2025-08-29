@@ -1,8 +1,8 @@
 "use client"
 
 import Link from "next/link"
-import { motion } from "framer-motion"
 import { Phone, MessageCircle, Mail, ExternalLink } from "lucide-react"
+import Image from "next/image"
 
 const navigation = {
   main: [
@@ -27,12 +27,19 @@ export function Footer() {
           <div className="md:col-span-2 lg:col-span-1">
             <Link
               href="/"
-              className="font-display text-responsive-lg font-bold text-off-white hover:text-neon-lime transition-colors duration-200 focus-ring"
+              className="flex items-center gap-3 font-display text-responsive-lg font-bold text-off-white hover:text-neon-lime transition-colors duration-200 focus-ring"
             >
-              Rishabh Prajapat
+              <Image
+                src="/logo.png"
+                alt="GraphiqNest Logo"
+                className="w-10 h-10 object-contain"
+                width={40}
+                height={40}
+              />
+              <span>GraphiqNest</span>
             </Link>
             <p className="mt-4 text-responsive-sm text-off-white/70 leading-relaxed">
-              Professional Graphic Designer crafting compelling brand identities and visual communications that drive results.
+              Professional Graphic Design Studio crafting compelling brand identities and visual communications that drive results.
             </p>
 
             {/* Contact Info */}
@@ -54,11 +61,11 @@ export function Footer() {
                 <span className="text-responsive-xs">WhatsApp</span>
               </Link>
               <Link
-                href="mailto:contact@rishabhprajapat.com"
+                href="mailto:rishabhprajapat565@gmail.com"
                 className="flex items-center gap-3 text-off-white/70 hover:text-neon-lime transition-colors duration-200 focus-ring"
               >
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span className="text-responsive-xs">contact@rishabhprajapat.com</span>
+                <span className="text-responsive-xs">rishabhprajapat565@gmail.com</span>
               </Link>
             </div>
           </div>
@@ -85,7 +92,7 @@ export function Footer() {
           {/* Social Links */}
           <div className="md:col-span-1 lg:col-span-1">
             <h3 className="font-display font-semibold text-off-white mb-4 text-responsive-sm">
-              Follow Me
+              Follow Us
             </h3>
             <ul className="space-y-3">
               {navigation.social.map((item) => {
@@ -125,7 +132,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-off-white/10">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-4">
-            <p className="text-off-white/50 text-responsive-xs">© 2025 Rishabh Prajapat. All rights reserved.</p>
+            <p className="text-off-white/50 text-responsive-xs">© 2025 GraphiqNest. All rights reserved.</p>
             <div className="flex items-center gap-6 text-responsive-xs text-off-white/50">
               <Link href="/privacy" className="hover:text-neon-lime transition-colors duration-200 focus-ring">
                 Privacy Policy

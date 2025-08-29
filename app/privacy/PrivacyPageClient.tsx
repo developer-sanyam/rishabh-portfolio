@@ -40,7 +40,7 @@ export default function PrivacyPageClient() {
                         <section className="space-y-4">
                             <h2 className="text-responsive-lg font-display font-semibold text-off-white">Introduction</h2>
                             <p className="text-responsive-sm text-off-white/80 leading-relaxed">
-                                Welcome to Rishabh Prajapat's portfolio website. This Privacy Policy explains how we collect,
+                                Welcome to GraphiqNest's portfolio website. This Privacy Policy explains how we collect,
                                 use, disclose, and safeguard your information when you visit our website. Please read this
                                 privacy policy carefully. If you do not agree with the terms of this privacy policy,
                                 please do not access the site.
@@ -155,7 +155,7 @@ export default function PrivacyPageClient() {
                                 If you have any questions about this Privacy Policy or our privacy practices, please contact us:
                             </p>
                             <div className="text-off-white/80 space-y-2">
-                                <p>Email: privacy@rishabhprajapat.com</p>
+                                <p>Email: rishabhprajapat565@gmail.com</p>
                                 <p>
                                     WhatsApp: {" "}
                                     <a

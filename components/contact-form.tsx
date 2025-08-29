@@ -16,21 +16,29 @@ export function ContactForm() {
   })
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle")
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setStatus("sending")
 
-    // Create mailto link as fallback
-    const subject = `Project Inquiry from ${formData.name}`
-    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    const mailtoLink = `mailto:rishabh@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
 
-    // Simulate form submission
-    setTimeout(() => {
-      window.location.href = mailtoLink
+      if (!response.ok) {
+        throw new Error('Failed to send email')
+      }
+
       setStatus("sent")
       setFormData({ name: "", email: "", message: "" })
-    }, 1000)
+    } catch (error) {
+      console.error('Error sending email:', error)
+      setStatus("error")
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -132,7 +140,7 @@ export function ContactForm() {
           animate={{ opacity: 1, y: 0 }}
         >
           <CheckCircle className="w-4 h-4" />
-          Your email client should open with the message. If not, please email me directly.
+          Your message has been sent successfully! I'll get back to you soon.
         </motion.div>
       )}
 
