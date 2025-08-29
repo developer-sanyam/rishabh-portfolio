@@ -107,7 +107,7 @@ export function Footer() {
             </ul>
 
             {/* Download CV */}
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <Link
                 href="/cv-rishabh-prajapat.pdf"
                 download
@@ -118,7 +118,7 @@ export function Footer() {
                 </svg>
                 Download CV
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
 

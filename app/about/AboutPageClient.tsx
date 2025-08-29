@@ -116,14 +116,14 @@ export default function AboutPageClient() {
               </div>
 
               {/* Download CV */}
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <Button asChild className="bg-neon-lime text-charcoal hover:bg-neon-lime/90 font-semibold">
                   <Link href="/cv-rishabh-prajapat.pdf" download className="flex items-center gap-2">
                     <Download className="w-4 h-4" />
                     Download CV
                   </Link>
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
