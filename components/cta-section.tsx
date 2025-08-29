@@ -68,7 +68,7 @@ export function CTASection() {
               asChild
               variant="outline"
               size="lg"
-              className="border-off-white/30 text-off-white hover:bg-off-white hover:text-black bg-transparent text-base px-8 py-4"
+              className="border-off-white/30 text-off-white hover:bg-off-white hover:!text-black bg-transparent text-base px-8 py-4"
             >
               <Link href="tel:+919529155325" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />

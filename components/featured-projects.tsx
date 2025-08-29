@@ -40,7 +40,7 @@ export function FeaturedProjects() {
           <Button
             asChild
             size="lg"
-            className="border-electric-blue text-electric-blue hover:bg-electric-blue hover:text-black bg-transparent text-base px-8 py-4"
+            className="border-electric-blue text-electric-blue hover:bg-electric-blue hover:!text-black bg-transparent text-base px-8 py-4"
           >
             <Link href="/work" className="flex items-center gap-2">
               View All Work

@@ -115,7 +115,7 @@ function ServiceCard({ service, index }: { service: (typeof services)[0]; index:
       {/* CTA */}
       <Button asChild className="bg-neon-lime text-charcoal hover:bg-neon-lime/90 font-semibold w-full">
         <Link
-          href="https://wa.me/919529155325"
+          href={`https://wa.me/919529155325?text=Hello, I am interested in your ${service.title} services. I would like to discuss starting a new project and would appreciate information regarding the pricing and next steps.`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2"

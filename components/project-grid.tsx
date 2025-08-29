@@ -113,7 +113,7 @@ export function ProjectGrid() {
                   setActiveCategory("All")
                   setSearchQuery("")
                 }}
-                className="border border-off-white/30 text-off-white hover:bg-off-white hover:text-black bg-transparent px-4 py-2 rounded-2xl transition-colors duration-200"
+                className="border border-off-white/30 text-off-white hover:bg-off-white hover:!text-black bg-transparent px-4 py-2 rounded-2xl transition-colors duration-200"
               >
                 Clear Filters
               </button>

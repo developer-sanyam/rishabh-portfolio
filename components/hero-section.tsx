@@ -101,7 +101,7 @@ export function HeroSection() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="border-electric-blue text-electric-blue hover:bg-electric-blue hover:text-black bg-transparent text-base btn-mobile w-full sm:w-auto"
+                className="border-electric-blue text-electric-blue hover:bg-electric-blue hover:!text-black bg-transparent text-base btn-mobile w-full sm:w-auto"
               >
                 <Link
                   href="https://wa.me/919529155325"
