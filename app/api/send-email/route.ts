@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: "Portfolio Contact <onboarding@resend.dev>", // Update this with your verified domain
+      from: "Portfolio Contact <noreply@medikeeps.com>", // Update this with your verified domain
       to: ["rishabhprajapat565@gmail.com"],
       subject: `New Portfolio Contact: ${name}`,
       html: `
