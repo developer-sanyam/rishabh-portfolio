@@ -11,9 +11,6 @@ export default function PrivacyPageClient() {
                 {/* Page Header */}
                 <motion.div
                     className="text-center mb-12 lg:mb-16"
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
                 >
                     <SectionTitle
                         title="Privacy Policy"
@@ -25,9 +22,6 @@ export default function PrivacyPageClient() {
                 {/* Content */}
                 <motion.div
                     className="max-w-4xl mx-auto"
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.2 }}
                 >
                     <div className="glass rounded-2xl p-8 lg:p-12 space-y-8">
 
@@ -159,7 +153,7 @@ export default function PrivacyPageClient() {
                                 <p>
                                     WhatsApp: {" "}
                                     <a
-                                        href="https://wa.me/919529155325"
+                                        href="https://wa.me/919529155325?text=Hello%20Rishabh,%20I%20have%20a%20question%20about%20your%20Privacy%20Policy%20and%20would%20like%20to%20discuss%20data%20protection%20practices."
                                         className="text-electric-blue hover:text-neon-lime transition-colors"
                                         target="_blank"
                                         rel="noopener noreferrer"

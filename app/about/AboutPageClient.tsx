@@ -1,5 +1,3 @@
-"use client"
-
 import Image from "next/image"
 import { Download, Award } from "lucide-react"
 import { Header } from "@/components/header"
@@ -51,7 +49,7 @@ const achievements = [
   {
     year: "2023",
     title: "Best Packaging Design",
-    organization: "Mumbai Design Week",
+    organization: "Rajasthan Design Week",
     type: "Award",
   },
   {
@@ -74,66 +72,53 @@ export default function AboutPageClient() {
       {/* Hero Section */}
       <section >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Portrait */}
-            <div className="order-2 lg:order-1">
-              <div className="relative aspect-[3/4] max-w-md mx-auto lg:mx-0 rounded-2xl overflow-hidden">
-                <Image
-                  src="/graphic-designer-portrait.png"
-                  alt="GraphiqNest - Graphic Design Studio"
-                  fill
-                  className="object-cover"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/20 to-transparent" />
-              </div>
-            </div>
-
-            {/* Bio Content */}
-            <div className="order-1 lg:order-2">
-              {/* Logo */}
-              <div className="mb-8 text-center lg:text-left">
-                <img
-                  src="/logo.png"
-                  alt="GraphiqNest Logo"
-                  className="w-20 h-20 lg:w-24 lg:h-24 mx-auto lg:mx-0 object-contain"
-                />
-              </div>
-
-              <SectionTitle
-                eyebrow="About Me"
-                title="Crafting Visual Stories That Connect"
-                description="I'm a passionate graphic designer with over 5 years of experience creating compelling visual identities and memorable brand experiences."
-                className="mb-8"
+          <div className="max-w-4xl mx-auto">
+            {/* Logo */}
+            <div className="mb-8 text-center">
+              <Image
+                src="/logo.png"
+                alt="GraphiqNest Logo"
+                width={96}
+                height={96}
+                className="w-20 h-20 lg:w-24 lg:h-24 mx-auto object-contain"
+                priority
               />
-
-              <div className="space-y-6 text-off-white/80 leading-relaxed">
-                <p>
-                  Based in Mumbai, I specialize in transforming complex ideas into clear, impactful visual
-                  communications. My approach combines strategic thinking with creative execution, ensuring every
-                  design serves both aesthetic and functional purposes.
-                </p>
-                <p>
-                  I believe great design is invisible—it seamlessly guides users, communicates messages, and creates
-                  emotional connections without drawing attention to itself. This philosophy drives my work across
-                  brand identity, packaging design, editorial layouts, and digital experiences.
-                </p>
-                <p>
-                  When I'm not designing, you'll find me exploring local art galleries, experimenting with new
-                  illustration techniques, or mentoring aspiring designers in the community.
-                </p>
-              </div>
-
-              {/* Download CV */}
-              {/* <div className="mt-8">
-                <Button asChild className="bg-neon-lime text-charcoal hover:bg-neon-lime/90 font-semibold">
-                  <Link href="/cv-rishabh-prajapat.pdf" download className="flex items-center gap-2">
-                    <Download className="w-4 h-4" />
-                    Download CV
-                  </Link>
-                </Button>
-              </div> */}
             </div>
+
+            <SectionTitle
+              eyebrow="About Me"
+              title="Crafting Visual Stories That Connect"
+              description="I'm a passionate graphic designer with over 5 years of experience creating compelling visual identities and memorable brand experiences."
+              className="mb-8"
+              align="center"
+            />
+
+            <div className="space-y-6 text-off-white/80 leading-relaxed text-center">
+              <p>
+                Based in Jodhpur, I specialize in transforming complex ideas into clear, impactful visual
+                communications. My approach combines strategic thinking with creative execution, ensuring every
+                design serves both aesthetic and functional purposes.
+              </p>
+              <p>
+                I believe great design is invisible—it seamlessly guides users, communicates messages, and creates
+                emotional connections without drawing attention to itself. This philosophy drives my work across
+                brand identity, packaging design, editorial layouts, and digital experiences.
+              </p>
+              <p>
+                When I'm not designing, you'll find me exploring local art galleries, experimenting with new
+                illustration techniques, or mentoring aspiring designers in the community.
+              </p>
+            </div>
+
+            {/* Download CV */}
+            {/* <div className="mt-8 text-center">
+              <Button asChild className="bg-neon-lime text-charcoal hover:bg-neon-lime/90 font-semibold">
+                <Link href="/cv-rishabh-prajapat.pdf" download className="flex items-center gap-2">
+                  <Download className="w-4 h-4" />
+                  Download CV
+                </Link>
+              </Button>
+            </div> */}
           </div>
         </div>
       </section>

@@ -186,7 +186,7 @@ export default function TermsPageClient() {
                             </p>
                             <div className="space-y-2 text-off-white/80">
                                 <p><strong>Email:</strong> rishabhprajapat565@gmail.com</p>
-                                <p><strong>WhatsApp:</strong> <Link href="https://wa.me/919529155325" className="text-neon-lime hover:text-electric-blue transition-colors">+91 95291 55325</Link></p>
+                                <p><strong>WhatsApp:</strong> <Link href="https://wa.me/919529155325?text=Hello%20Rishabh,%20I%20have%20a%20question%20about%20your%20Terms%20of%20Service%20and%20would%20like%20to%20discuss%20the%20terms%20and%20conditions%20for%20your%20design%20services." className="text-neon-lime hover:text-electric-blue transition-colors">+91 95291 55325</Link></p>
                                 <p><strong>Website:</strong> <Link href="/" className="text-neon-lime hover:text-electric-blue transition-colors">graphiqnest.com</Link></p>
                             </div>
                         </section>

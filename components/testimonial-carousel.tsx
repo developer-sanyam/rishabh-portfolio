@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { SectionTitle } from "@/components/section-title"
@@ -38,43 +37,29 @@ export function TestimonialCarousel() {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Testimonial Content */}
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={currentIndex}
-                className="text-center"
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -30 }}
-                transition={{ duration: 0.5 }}
-              >
-                {/* Quote Icon */}
-                <motion.div
-                  className="flex justify-center mb-8"
-                  initial={{ scale: 0 }}
-                  animate={{ scale: 1 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                >
-                  <div className="w-16 h-16 bg-neon-lime/10 rounded-full flex items-center justify-center">
-                    <Quote className="w-8 h-8 text-neon-lime" />
-                  </div>
-                </motion.div>
-
-                {/* Quote */}
-                <blockquote className="text-xl lg:text-2xl text-off-white leading-relaxed mb-8 font-light">
-                  "{testimonialsData[currentIndex].quote}"
-                </blockquote>
-
-                {/* Author */}
-                <div className="text-center">
-                  <p className="font-display text-lg font-semibold text-off-white mb-1">
-                    {testimonialsData[currentIndex].author}
-                  </p>
-                  <p className="text-off-white/70">
-                    {testimonialsData[currentIndex].role} at {testimonialsData[currentIndex].company}
-                  </p>
+            <div key={currentIndex} className="text-center">
+              {/* Quote Icon */}
+              <div className="flex justify-center mb-8">
+                <div className="w-16 h-16 bg-neon-lime/10 rounded-full flex items-center justify-center">
+                  <Quote className="w-8 h-8 text-neon-lime" />
                 </div>
-              </motion.div>
-            </AnimatePresence>
+              </div>
+
+              {/* Quote */}
+              <blockquote className="text-xl lg:text-2xl text-off-white leading-relaxed mb-8 font-light">
+                "{testimonialsData[currentIndex].quote}"
+              </blockquote>
+
+              {/* Author */}
+              <div className="text-center">
+                <p className="font-display text-lg font-semibold text-off-white mb-1">
+                  {testimonialsData[currentIndex].author}
+                </p>
+                <p className="text-off-white/70">
+                  {testimonialsData[currentIndex].role} at {testimonialsData[currentIndex].company}
+                </p>
+              </div>
+            </div>
 
             {/* Navigation Buttons */}
             <div className="flex items-center justify-center gap-4 mt-12">
@@ -82,7 +67,7 @@ export function TestimonialCarousel() {
                 variant="ghost"
                 size="sm"
                 onClick={prevTestimonial}
-                className="w-12 h-12 rounded-full bg-off-white/5 hover:bg-off-white/10 text-off-white hover:text-neon-lime transition-colors duration-200"
+                className="w-12 h-12 rounded-full bg-off-white/5 hover:bg-off-white/10 text-off-white hover:text-neon-lime"
               >
                 <ChevronLeft className="w-5 h-5" />
                 <span className="sr-only">Previous testimonial</span>
@@ -106,7 +91,7 @@ export function TestimonialCarousel() {
                 variant="ghost"
                 size="sm"
                 onClick={nextTestimonial}
-                className="w-12 h-12 rounded-full bg-off-white/5 hover:bg-off-white/10 text-off-white hover:text-neon-lime transition-colors duration-200"
+                className="w-12 h-12 rounded-full bg-off-white/5 hover:bg-off-white/10 text-off-white hover:text-neon-lime"
               >
                 <ChevronRight className="w-5 h-5" />
                 <span className="sr-only">Next testimonial</span>

@@ -1,12 +1,9 @@
-"use client"
 import { MessageCircle, Phone, Mail, MapPin, Clock } from "lucide-react"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { WhatsAppFloatingButton } from "@/components/whatsapp-floating-button"
 import { SectionTitle } from "@/components/section-title"
 import { ContactForm } from "@/components/contact-form"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from "next/image"
 
 const contactMethods = [
   {
@@ -69,10 +66,13 @@ export default function ContactPageClient() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
           {/* Logo */}
           <div className="mb-12 text-center">
-            <img
+            <Image
               src="/logo.png"
               alt="GraphiqNest Logo"
+              width={96}
+              height={96}
               className="w-24 h-24 mx-auto object-contain"
+              priority
             />
           </div>
 
@@ -118,7 +118,7 @@ export default function ContactPageClient() {
                         }
                       >
                         <Link
-                          href={method.href}
+                          href={method.primary ? "https://wa.me/919529155325?text=Hello%20Rishabh,%20I%20found%20your%20contact%20information%20on%20your%20website%20and%20would%20like%20to%20discuss%20a%20potential%20design%20project." : method.href}
                           target={method.href.startsWith("http") ? "_blank" : undefined}
                           rel={method.href.startsWith("http") ? "noopener noreferrer" : undefined}
                         >
@@ -158,50 +158,17 @@ export default function ContactPageClient() {
         </div>
       </section>
 
-      {/* Social Links */}
-      <section className="py-20 bg-muted-gray/30">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <SectionTitle
-            title="Follow My Work"
-            description="Stay updated with my latest projects and design insights across social platforms."
-            align="center"
-            className="mb-16"
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
-            {socialLinks.map((social, index) => (
-              <Link
-                key={social.name}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-6 bg-off-white/5 hover:bg-off-white/10 rounded-2xl border border-off-white/10 hover:border-neon-lime/30 transition-all duration-300 text-center group"
-              >
-                <div className="w-16 h-16 bg-electric-blue/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <MapPin className="w-8 h-8 text-electric-blue" />
-                </div>
-                <h2 className="font-display text-2xl font-bold text-off-white mb-4">Based in Mumbai</h2>
-                <p className="text-off-white/70 leading-relaxed">
-                  Located in the heart of India's creative capital, I work with clients locally and internationally.
-                  Available for remote collaboration and on-site meetings within Mumbai.
-                </p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Location */}
-      <section className="py-20">
+      <section className="py-20 bg-muted-gray/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="max-w-2xl mx-auto text-center">
             <div className="w-16 h-16 bg-electric-blue/10 rounded-full flex items-center justify-center mx-auto mb-6">
               <MapPin className="w-8 h-8 text-electric-blue" />
             </div>
-            <h2 className="font-display text-2xl font-bold text-off-white mb-4">Based in Mumbai</h2>
+            <h2 className="font-display text-2xl font-bold text-off-white mb-4">Based in Jodhpur</h2>
             <p className="text-off-white/70 leading-relaxed">
-              Located in the heart of India's creative capital, I work with clients locally and internationally.
-              Available for remote collaboration and on-site meetings within Mumbai.
+              Located in the Blue City of Rajasthan, I work with clients locally and internationally.
+              Available for remote collaboration and on-site meetings within Jodhpur.
             </p>
           </div>
         </div>

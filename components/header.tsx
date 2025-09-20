@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { motion } from "framer-motion"
 import { Menu, Phone, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -31,12 +30,9 @@ export function Header() {
   }, [])
 
   return (
-    <motion.header
-      className={`fixed top-0.5 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-charcoal/95 backdrop-blur-md border-b border-off-white/10" : "bg-transparent"
+    <header
+      className={`fixed top-0.5 left-0 right-0 z-50 ${isScrolled ? "bg-charcoal/95 backdrop-blur-md border-b border-off-white/10" : "bg-transparent"
         }`}
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
@@ -66,12 +62,7 @@ export function Header() {
               >
                 {item.name}
                 {pathname === item.href && (
-                  <motion.div
-                    className="absolute -bottom-1 left-0 right-0 h-0.5 bg-neon-lime"
-                    layoutId="activeTab"
-                    initial={false}
-                    transition={{ type: "spring", stiffness: 500, damping: 30 }}
-                  />
+                  <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-neon-lime" />
                 )}
               </Link>
             ))}
@@ -92,7 +83,7 @@ export function Header() {
             </Button>
             <Button asChild size="sm" className="bg-neon-lime text-charcoal hover:bg-neon-lime/90 font-semibold">
               <Link
-                href="https://wa.me/919529155325"
+                href="https://wa.me/919529155325?text=Hello%20Rishabh,%20I%20found%20your%20WhatsApp%20link%20in%20the%20navigation%20and%20would%20like%20to%20discuss%20a%20design%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
@@ -149,7 +140,7 @@ export function Header() {
                   </Button>
                   <Button asChild className="w-full bg-neon-lime text-charcoal hover:bg-neon-lime/90 font-semibold">
                     <Link
-                      href="https://wa.me/919529155325"
+                      href="https://wa.me/919529155325?text=Hello%20Rishabh,%20I%20found%20your%20WhatsApp%20link%20in%20the%20mobile%20menu%20and%20would%20like%20to%20discuss%20a%20design%20project."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2"
@@ -164,6 +155,6 @@ export function Header() {
           </Sheet>
         </div>
       </div>
-    </motion.header>
+    </header>
   )
 }

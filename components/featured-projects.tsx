@@ -1,6 +1,3 @@
-"use client"
-
-import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { SectionTitle } from "@/components/section-title"
@@ -30,13 +27,7 @@ export function FeaturedProjects() {
         </div>
 
         {/* View All Work CTA */}
-        <motion.div
-          className="text-center"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
+        <div className="text-center">
           <Button
             asChild
             size="lg"
@@ -47,7 +38,7 @@ export function FeaturedProjects() {
               <ArrowRight className="w-5 h-5" />
             </Link>
           </Button>
-        </motion.div>
+        </div>
       </div>
     </section>
   )

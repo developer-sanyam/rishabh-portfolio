@@ -3,7 +3,6 @@
 import type React from "react"
 
 import { useState } from "react"
-import { motion } from "framer-motion"
 import { Send, CheckCircle, AlertCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -49,13 +48,9 @@ export function ContactForm() {
   }
 
   return (
-    <motion.form
+    <form
       onSubmit={handleSubmit}
       className="space-y-6"
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
     >
       {/* Name */}
       <div>
@@ -134,26 +129,18 @@ export function ContactForm() {
 
       {/* Status Messages */}
       {status === "sent" && (
-        <motion.div
-          className="flex items-center gap-2 text-neon-lime text-sm"
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-        >
+        <div className="flex items-center gap-2 text-neon-lime text-sm">
           <CheckCircle className="w-4 h-4" />
           Your message has been sent successfully! I'll get back to you soon.
-        </motion.div>
+        </div>
       )}
 
       {status === "error" && (
-        <motion.div
-          className="flex items-center gap-2 text-destructive text-sm"
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-        >
+        <div className="flex items-center gap-2 text-destructive text-sm">
           <AlertCircle className="w-4 h-4" />
           Something went wrong. Please try again or contact me directly.
-        </motion.div>
+        </div>
       )}
-    </motion.form>
+    </form>
   )
 }

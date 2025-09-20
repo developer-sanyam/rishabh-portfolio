@@ -2,7 +2,6 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Space_Grotesk, Inter } from "next/font/google"
 import "./globals.css"
-import { PageTransition } from "@/components/page-transition"
 import { SmoothScroll } from "@/components/smooth-scroll"
 import { ScrollProgress } from "@/components/scroll-progress"
 import { CursorFollower } from "@/components/cursor-follower"
@@ -101,7 +100,6 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
         <link rel="icon" href="/logo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
       </head>
       <body className="bg-charcoal text-off-white font-body antialiased">
         <ScrollProgress />
@@ -110,13 +108,11 @@ export default function RootLayout({
         <AccessibilityEnhancements />
         <div className="min-h-screen bg-charcoal">
           <Header />
-          <PageTransition>
-            <div id="main-content" className="pt-16 lg:pt-20">
-              <main className="relative">
-                {children}
-              </main>
-            </div>
-          </PageTransition>
+          <div id="main-content" className="pt-16 lg:pt-20">
+            <main className="relative">
+              {children}
+            </main>
+          </div>
           <Footer />
         </div>
         <WhatsAppFloatingButton />

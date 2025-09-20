@@ -1,6 +1,3 @@
-"use client"
-
-import { motion } from "framer-motion"
 import { Search, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -23,12 +20,7 @@ export function ProjectFilter({
   return (
     <div className="space-y-6">
       {/* Search Input */}
-      <motion.div
-        className="relative max-w-md"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-      >
+      <div className="relative max-w-md">
         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-off-white/50" />
         <Input
           type="text"
@@ -47,34 +39,23 @@ export function ProjectFilter({
             <X className="w-4 h-4" />
           </Button>
         )}
-      </motion.div>
+      </div>
 
       {/* Category Filters */}
-      <motion.div
-        className="flex flex-wrap gap-3"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.1 }}
-      >
+      <div className="flex flex-wrap gap-3">
         {categories.map((category, index) => (
-          <motion.button
+          <button
             key={category}
             onClick={() => onCategoryChange(category)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 focus-ring ${
-              activeCategory === category
-                ? "bg-neon-lime text-charcoal"
-                : "bg-off-white/10 text-off-white hover:bg-off-white/20 hover:text-neon-lime"
-            }`}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.4, delay: index * 0.05 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+            className={`px-4 py-2 rounded-full text-sm font-medium focus-ring ${activeCategory === category
+              ? "bg-neon-lime text-charcoal"
+              : "bg-off-white/10 text-off-white hover:bg-off-white/20 hover:text-neon-lime"
+              }`}
           >
             {category}
-          </motion.button>
+          </button>
         ))}
-      </motion.div>
+      </div>
     </div>
   )
 }

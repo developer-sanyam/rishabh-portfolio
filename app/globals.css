@@ -178,8 +178,6 @@
     @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neon-lime focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal;
   }
 
-  /* Enhanced animations and micro-interactions */
-
   /* Updated custom scrollbar for dark theme with dark blue accent */
   ::-webkit-scrollbar {
     width: 8px;
@@ -206,76 +204,58 @@
 
   /* Updated enhanced focus styles for dark theme */
   .enhanced-focus {
-    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neon-lime focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal focus-visible:scale-105;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neon-lime focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal;
   }
 
   /* Updated hover glow effect with blue gradient */
-  .hover-glow {
-    transition: all 0.3s ease;
-  }
-
   .hover-glow:hover {
     box-shadow: 0 0 30px rgba(59, 130, 246, 0.4),
       0 0 60px rgba(96, 165, 250, 0.2);
   }
 
-  /* Updated text gradient animation with blue gradient */
+  /* Updated text gradient with blue gradient */
   .gradient-text {
     background: linear-gradient(45deg, #3b82f6, #60a5fa, #93c5fd);
-    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: gradient-shift 3s ease infinite;
   }
+}
 
-  @keyframes gradient-shift {
-    0%,
-    100% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
+/* Simple scroll animation for marquee */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
   }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
-  /* Updated pulse animation with blue gradient */
-  .pulse-glow {
-    animation: pulse-glow 2s ease-in-out infinite alternate;
-  }
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
 
-  @keyframes pulse-glow {
-    from {
-      box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
-    }
-    to {
-      box-shadow: 0 0 30px rgba(59, 130, 246, 0.8),
-        0 0 45px rgba(96, 165, 250, 0.4);
-    }
-  }
+/* Dynamic styles for components */
+.cursor-follower {
+  transform: translate(var(--cursor-x, 0px), var(--cursor-y, 0px))
+    scale(var(--cursor-scale, 1));
+}
+
+.scroll-progress-bar {
+  width: var(--progress-width, 0%);
+}
+
+.lightbox-image {
+  transform: scale(var(--lightbox-scale, 1));
 }
 
 /* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-
   html {
     scroll-behavior: auto;
   }
 
-  /* Updated disabled animations with blue gradient */
-  .gradient-text {
-    animation: none;
-    background: #3b82f6;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  /* Updated pulse animation with blue gradient */
-  .pulse-glow {
+  .animate-scroll {
     animation: none;
   }
 }

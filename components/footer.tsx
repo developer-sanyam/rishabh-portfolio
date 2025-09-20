@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import { Phone, MessageCircle, Mail, ExternalLink } from "lucide-react"
 import Image from "next/image"
@@ -52,7 +50,7 @@ export function Footer() {
                 <span className="text-responsive-xs">+91 95291 55325</span>
               </Link>
               <Link
-                href="https://wa.me/919529155325"
+                href="https://wa.me/919529155325?text=Hello%20Rishabh,%20I%20found%20your%20contact%20information%20in%20the%20footer%20of%20your%20website%20and%20would%20like%20to%20connect%20about%20a%20design%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-off-white/70 hover:text-neon-lime transition-colors duration-200 focus-ring"
@@ -151,7 +149,7 @@ export function Footer() {
                 href="https://sanyam.software/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-neon-lime hover:text-electric-blue transition-colors duration-200 font-medium focus-ring"
+                className="text-neon-lime hover:text-electric-blue font-medium focus-ring"
               >
                 Sanyam Jain
               </Link>

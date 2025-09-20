@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { motion } from "framer-motion"
 
 export function CursorFollower() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
@@ -35,18 +34,13 @@ export function CursorFollower() {
   }, [])
 
   return (
-    <motion.div
-      className="fixed top-0 left-0 w-6 h-6 bg-neon-lime/20 rounded-full pointer-events-none z-50 mix-blend-difference hidden lg:block"
-      animate={{
-        x: mousePosition.x - 12,
-        y: mousePosition.y - 12,
-        scale: isHovering ? 1.5 : 1,
-      }}
-      transition={{
-        type: "spring",
-        stiffness: 500,
-        damping: 28,
-      }}
+    <div
+      className="fixed top-0 left-0 w-6 h-6 bg-neon-lime/20 rounded-full pointer-events-none z-50 mix-blend-difference hidden lg:block cursor-follower"
+      style={{
+        '--cursor-x': `${mousePosition.x - 12}px`,
+        '--cursor-y': `${mousePosition.y - 12}px`,
+        '--cursor-scale': isHovering ? 1.5 : 1,
+      } as React.CSSProperties}
     />
   )
 }

@@ -1,8 +1,4 @@
-"use client"
-
 import type React from "react"
-
-import { motion } from "framer-motion"
 
 interface TagProps {
   children: React.ReactNode
@@ -18,12 +14,8 @@ export function Tag({ children, variant = "default", className = "" }: TagProps)
   }
 
   return (
-    <motion.span
-      className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border transition-colors duration-200 ${variants[variant]} ${className}`}
-      whileHover={{ scale: 1.05 }}
-      transition={{ type: "spring", stiffness: 400, damping: 20 }}
-    >
+    <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border ${variants[variant]} ${className}`}>
       {children}
-    </motion.span>
+    </span>
   )
 }
